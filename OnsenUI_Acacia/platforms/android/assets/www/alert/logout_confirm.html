@@ -1,0 +1,26 @@
+<ons-alert-dialog class="alert_fullscreen_blue" var="alertdialog"
+				  ng-controller="logout">
+	<!-- need navbar here.-->
+
+	<div class="navigation_margin"></div>
+	<div class="login-form " style="   width: 70%;
+									   position: relative;
+									     top: 50%;
+ 				 transform: translateY(-50%);"
+	>
+		<div class="light_title_font" style="font-size: 2em; width: 100%; margin: -40% auto 0 auto;
+  text-align: center; font-weight: bold">
+			Confirm Logout?
+		</div>
+		<br>
+		<div style="font-family: Helvetica; width: 100%; margin: 0 auto 0 auto; font-size: 1em;
+		text-align: center;">
+			Are you sure you wish to logout?
+		</div>
+		<br>
+		<ons-button  class="login-button" ng-click="cancel_logout();">NO</ons-button>
+		<br><br>
+		<ons-button  class="cancel-button" ng-click="click_logout(); alertdialog.hide();">YES</ons-button>
+	</div>
+
+</ons-alert-dialog>

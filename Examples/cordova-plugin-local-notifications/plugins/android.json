@@ -1,0 +1,25 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-x-toast": {
+            "PACKAGE_NAME": "de.appplant.localnotification.example"
+        },
+        "cordova-plugin-local-notifications-pgb": {
+            "PACKAGE_NAME": "de.appplant.localnotification.example"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "de.appplant.localnotification.example"
+        },
+        "android.support.v13": {
+            "PACKAGE_NAME": "de.appplant.localnotification.example"
+        }
+    }
+}

@@ -1,0 +1,105 @@
+<ons-page ng-controller="page_home">
+
+	<div class="vertical_menu">
+		<div class="left" ng-click="slidemenu_open()" style="height: 2.5em;width: 100%;">
+			<div class="slidemenu_icon_font" style="
+                    text-align: center;
+                    width: 100%;
+                    line-height: 2.5em;
+                ">&#xe019;</div>
+		</div>
+		<div class="vertical_text_nav">
+		</div>
+	</div>
+
+	<div style="display: flex; flex-flow: row;height: 100%">
+		<div ng-show="is_menu_open()" style=" margin: auto;
+  position: absolute;
+ left: 45%; top: 45%;">
+			<ons-icon icon='fa-spinner' size="5em" spin='true'></ons-icon>
+		</div>
+		<div style="width: 100%; margin-left: auto;
+         margin-right: auto;  position:relative" ng-show="!is_menu_open()" class="special_hide">
+			<ons-navigator>
+				<ons-toolbar fixed-style>
+					<div class="center" style="font-weight: bolder">Home</div>
+					<div class="right">
+						<ons-toolbar-button style="position: absolute;  right: 0%;  top: 0; "
+											ng-click="show_form_search()">
+							<div class="slidemenu_icon_font" style="color: white">&#xe01a;</div>
+						</ons-toolbar-button>
+					</div>
+				</ons-toolbar>
+				<div class="navigation_margin"></div>
+				<div id="advertisement">
+					<div class="slideshow_text" style="background-color:black!important; width: 100%;">Advertisement
+					</div>
+					<div id="advertisement_carousel" class="owl-carousel">
+						<img class="slideshow" style="max-height: 18vh"
+							 src="http://loremflickr.com/768/256/advertisement,money?random=1">
+						<img class="slideshow" style="max-height: 18vh"
+							 src="http://loremflickr.com/768/256/advertisement,money?random=2">
+						<img class="slideshow" style="max-height: 18vh"
+							 src="http://loremflickr.com/768/256/advertisement,money?random=3">
+						<img class="slideshow" style="max-height: 18vh"
+							 src="http://loremflickr.com/768/256/advertisement,money?random=4">
+					</div>
+				</div>
+				<div ng-init="slideshow_start()">
+
+					<div id="button_news" style=" height: 14vh; overflow: hidden;  width: 89%;
+    margin: 0 auto 0 auto; "
+						 ng-click="page_load_news()">
+						<div class="slideshow_text" style="font-size: 1.5em">Latest News</div>
+						<div name="slideshow" class="slideshow">
+							<img src="css/custom_images/page_home/news2.jpg">
+							<img src="css/custom_images/page_home/news2.jpg">
+							<img src="css/custom_images/page_home/news2.jpg">
+							<img src="css/custom_images/page_home/news2.jpg">
+						</div>
+					</div>
+					<br>
+					<div id="button_marketplace" style="height: 14vh; overflow: hidden; width: 89%;
+    margin: 0 auto 0 auto; "
+						 ng-click="page_load_loans_marketplace()">
+						<div class="slideshow_text ">Browse Loan Marketplace</div>
+						<div name="slideshow" class="slideshow">
+							<img src="css/custom_images/page_home/marketplace.jpg">
+							<img src="css/custom_images/page_home/marketplace.jpg">
+							<img src="css/custom_images/page_home/marketplace.jpg">
+							<img src="css/custom_images/page_home/marketplace.jpg">
+						</div>
+					</div>
+					<br>
+					<div id="button_statistics" style=" height: 14vh; overflow: hidden;    opacity: 0.5; width: 89%;
+    margin: 0 auto 0 auto;">
+
+						<div class="slideshow_text ">User Investment Statistics</div>
+						<div name="slideshow" class="slideshow image_grayscale">
+							<img src="css/custom_images/page_home/statistics.jpg">
+							<img src="css/custom_images/page_home/statistics.jpg">
+							<img src="css/custom_images/page_home/statistics.jpg">
+							<img src="css/custom_images/page_home/statistics.jpg">
+
+						</div>
+					</div>
+					<br>
+					<div id="button_charts" style="height: 14vh; overflow: hidden;    opacity: 0.5;width: 89%;
+    margin: 0 auto 0 auto;">
+						<div class="slideshow_text ">Performance/ Charts/ etc.</div>
+						<div name="slideshow" class="slideshow image_grayscale">
+							<img src="css/custom_images/page_home/charts.jpg">
+							<img src="css/custom_images/page_home/charts.jpg">
+							<img src="css/custom_images/page_home/charts.jpg">
+							<img src="css/custom_images/page_home/charts.jpg">
+						</div>
+					</div>
+				</div>
+
+			</ons-navigator>
+		</div>
+	</div>
+</ons-page>
+
+
+

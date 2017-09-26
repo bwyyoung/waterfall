@@ -1,0 +1,39 @@
+<ons-page ng-controller="news">
+	<div style="display: flex;
+  flex-flow: row;height: 100%">
+		<div ng-show="is_menu_open() || !is_web_loaded()" style=" margin: auto;
+  position: absolute;
+ left: 45%; top: 45%;
+    z-index: 1000;">
+			<ons-icon icon='fa-spinner' size="5em" spin='true'></ons-icon>
+		</div>
+		<div style="width: 100%; margin-left: auto;
+         margin-right: auto;  position:relative" ng-show="!is_menu_open()" class="special_hide">
+			<ons-navigator var="nav_profile" animation="none" style="position: absolute;">
+
+				<ons-toolbar fixed-style>
+					<div class="left">
+						<ons-toolbar-button ng-click="load_page_home()">
+							<div style="font-family: nuiconfont !important; font-weight: bolder">&#xe002;</div>
+						</ons-toolbar-button>
+					</div>
+					<div class="center" style="font-weight: bolder">Latest News</div>
+				</ons-toolbar>
+
+				<div class="navigation_margin"></div>
+				<div style="all: unset">
+					<div style="width:100%;height:100%;overflow:scroll !important;-webkit-overflow-scrolling:touch !important"
+						 ng-show="is_web_loaded()">
+						<iframe ng-init="init_news()"
+								id="news" src="http://www.numoni.com/news-events/"
+								scrolling="yes" style="width:100%;height:100%" frameborder="0"
+								sandbox="allow-same-origin allow-scripts"></iframe>
+					</div>
+
+				</div>
+				<!--<div id="news1" style="width: 100%; height: 100%" ng-init="init_news()"></div> -->
+			</ons-navigator>
+
+		</div>
+	</div>
+</ons-page>

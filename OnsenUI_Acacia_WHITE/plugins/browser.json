@@ -1,0 +1,82 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-file": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-datepicker": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-ios-requires-fullscreen": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-labs-wkwebview-engine-localhost": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-local-notifications-pgb": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "numoni.acacia.marketplace-test.android_quit": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-compat": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-console": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-sim": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-wkwebview-engine": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-media-capture": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-sqlite-storage": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-dialogs": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-custom-config": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        },
+        "cordova-plugin-camera": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-labs-local-webserver": {
+            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
+        }
+    }
+}

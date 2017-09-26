@@ -1,0 +1,116 @@
+.form-row {
+	margin: 4px;
+	font-family: "default_font_1";
+}
+
+.width-full {
+	width: 100%;
+}
+
+.width-half {
+	width: 48%;
+}
+
+.width-third {
+	width: 30%;
+}
+
+.lucent {
+	opacity: 0.4;
+}
+
+.note {
+	margin: 12px 8px;
+	font-size: 13px;
+}
+
+.vspc {
+	margin-top: 20px;
+}
+
+.formarea {
+	width: 90%;
+	margin: 50px auto 0px auto;
+	font-family: "default_font_1";
+
+}
+
+.signup_name_separator {
+	font-size: 1.7em !important;
+	font-family: 'default_font_1' !important;
+	color: #8F8F8F !important;
+}
+
+input[type=text], [type=number], input.signup_email[type=email], input.new_password[type=password] {
+	border-bottom: 1px solid #8F8F8F;
+	height: 40px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	color: black;
+	display: inline-block;
+	-webkit-user-select: text;
+}
+
+input.new_password[type=password]::-webkit-input-placeholder {
+	color: #8F8F8F !important;
+}
+
+input.new_password[type=password]::-moz-placeholder { /* Firefox 18- */
+	color: #8F8F8F !important;
+}
+
+input.new_password[type=password]::-moz-placeholder { /* Firefox 19+ */
+	color: #8F8F8F !important;
+}
+
+input.new_password[type=password]:-ms-input-placeholder {
+	color: #8F8F8F !important;
+}
+
+input.signup_email[type=email]::-webkit-input-placeholder {
+	color: #8F8F8F !important;
+}
+
+input.signup_email[type=email]::-moz-placeholder { /* Firefox 18- */
+	color: #8F8F8F !important;
+}
+
+input.signup_email[type=email]::-moz-placeholder { /* Firefox 19+ */
+	color: #8F8F8F !important;
+}
+
+input.signup_email[type=email]:-ms-input-placeholder {
+	color: #8F8F8F !important;
+}
+
+input[type=text]::-webkit-input-placeholder {
+	color: #8F8F8F !important;
+}
+
+input[type=text]::-moz-placeholder { /* Firefox 18- */
+	color: #8F8F8F !important;
+}
+
+input[type=text]::-moz-placeholder { /* Firefox 19+ */
+	color: #8F8F8F !important;
+}
+
+input[type=text]:-ms-input-placeholder {
+	color: #8F8F8F !important;
+}
+
+input[type=number]::-webkit-input-placeholder {
+	color: #8F8F8F !important;
+}
+
+input[type=number]::-moz-placeholder { /* Firefox 18- */
+	color: #8F8F8F !important;
+}
+
+input[type=number]::-moz-placeholder { /* Firefox 19+ */
+	color: black !important;
+}
+
+input[type=number]:-ms-input-placeholder {
+	color: black !important;
+}

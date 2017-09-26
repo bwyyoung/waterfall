@@ -1,0 +1,79 @@
+<ons-alert-dialog style="z-index: 2147483647; width: 13em;" var="alertdialog" animation="default"  animation="none"
+				  cancelable ng-controller="loan_marketplace_loan_details">
+	<div class="alert-dialog-title">Loan Information</div>
+
+		<ons-row class="marketplace-list-row" ng-show="current_investment.loaded">
+			<div style="float: left!important; margin-left: 0em; margin-top: 0.4em; width: 100%;">
+				<ons-row>
+					<ons-row class="marketplace-list-row-padding" align="left">
+
+						<ons-col align="center" width="2em" height="2em">
+							<img class="user" style="width: 2em; height: 2em; margin: auto 0 auto 0.2em;" ng-src="{{current_investment.imgsrc}}"  class="item-thum">
+						</ons-col>
+						<br>
+						<ons-col width="10em">
+							<div style="margin-left: 0.5em">
+								<ons-row>
+									<span class="item-title" style="white-space: pre">{{current_investment.title}}</span>
+								</ons-row>
+								<ons-row>
+									<span class="item-label" style="white-space: pre;
+									 margin: 0 0 0.2em 0">{{current_investment.label}}</span>
+								</ons-row>
+								<ons-row>
+									<div id='rateyo_details_{{current_investment.index}}' class="rateYo_details" style="margin: 0 auto 0 0;"
+										 ng-init="init_display_loan_details()"></div>
+								</ons-row>
+							</div>
+						</ons-col>
+					</ons-row>
+					<ons-row class="marketplace-list-row-padding">
+						<div class="wordwrap"
+							 style="width: 100%;top: 0px;
+							margin-top: 0px;
+							vertical-align: top;
+							text-align: left;
+							position: relative;
+							    padding: 0 0.2em 0 0.2em;
+							font-size: 0.7em;">{{current_investment.desc}}</div>
+					</ons-row>
+					<div style="width:7em; margin: 0.5em auto 0 auto;">
+					<ons-row>
+						<ons-row class="marketplace-list-row-padding">
+							<div class="slidemenu_icon_font"
+								 style="font-size: 1.3em; padding-right: 0.1em">&#xe010;</div>
+							<div class="marketplace-list-numberholder">
+								<div style="font-size: 0.6em;margin: -2px 0 0 0;">{{current_investment.investment_formatted}}</div>
+							</div>
+						</ons-row>
+
+						<ons-row class="marketplace-list-row-padding">
+							<div class="slidemenu_icon_font"
+								 style="font-size: 1.3em; padding-right: 0.1em">&#xe00d;</div>
+							<div class="marketplace-list-numberholder">
+								<div style="font-size: 0.6em;margin: -2px 0 0 0;">{{current_investment.return_formatted}}</div></div>
+						</ons-row>
+						<br>
+						<ons-row class="marketplace-list-row-padding">
+							<div class="slidemenu_icon_font"
+								 style="font-size: 1.3em; padding-right: 0.1em">&#xe020;</div>
+							<div class="marketplace-list-numberholder">
+								<div style="font-size: 0.6em;margin: -2px 0 0 0;">{{current_investment.duration +   ' ' + current_investment.duration_type + '(s)'}}</div></div>
+						</ons-row>
+					</ons-row>
+					</div>
+				</ons-row>
+				<ons-row class="marketplace-list-row-padding"></ons-row>
+				<ons-row class="marketplace-list-row-padding"></ons-row>
+
+				<ons-row class="marketplace-list-row-padding">
+					<ons-button  class="login-button" ng-click="alertdialog.hide(); click_invest()">Invest Now</ons-button>
+
+				</ons-row>
+				<ons-row class="marketplace-list-row-padding">
+					<ons-button class="cancel-button" ng-click="alertdialog.hide(); alertdialog.destroy()">Cancel</ons-button>
+				</ons-row>
+			</div>
+		</ons-row>
+
+</ons-alert-dialog>

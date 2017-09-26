@@ -1,0 +1,76 @@
+<div style="
+width: 100%; height: 100%; padding-top: 20%; background-color: #E6E6E6;"
+	 id="div_add_credit_1" is='y-scroll-container'>
+	<ons-toolbar fixed-style>
+		<div class="left">
+			<ons-toolbar-button ng-click="nav_credit_poppage()">
+				<div style="font-family: nuiconfont !important; font-weight: bolder">&#xe002;</div>
+			</ons-toolbar-button>
+		</div>
+		<div class="center" style="font-weight: bolder">Add Credit Summary</div>
+	</ons-toolbar>
+
+
+	<form name='credit_summary'
+		  style="display: table; position: relative; width: 100%; height: 100%; overflow: visible; text-align: center"
+		  ng-init="init_credit_summary()">
+		<ons-row style="line-height: 2.5em; background-color: #4A4A4A; color: white">
+			<ons-col>
+				Payment Amount:
+			</ons-col>
+			<ons-col>
+				<div style="text-align: left; ">{{credit_data.input_credit}}</div>
+			</ons-col>
+		</ons-row>
+		<br>
+		<ons-row style="line-height: 2.5em;">
+			<ons-col>
+				Payment Method:
+			</ons-col>
+			<ons-col>
+				<select
+						ng-model='credit_data.payment_method'
+						name=''
+						type="text"
+						class="text-input--underbar  login_text select_menu_form"
+						placeholder="Account Type"
+						ng-change="check_credit_summary_before_submit()"
+						value="">
+					<option value="" disabled selected>Payment Type</option>
+					<option value="CC">Credit Card</option>
+					<option value="DC">Debit Card</option>
+				</select>
+			</ons-col>
+		</ons-row>
+		<br>
+		<ons-row style="line-height: 2.5em;">
+			<ons-col>
+				Processing<br>Fees:
+				<ons-icon icon='fa-question-circle' size="1em" ng-click="show_info_processing_fee()"></ons-icon>
+			</ons-col>
+			<ons-col>
+				<div style="text-align: left;     line-height: 2.5em;">{{credit_data.processing_fee}}</div>
+			</ons-col>
+		</ons-row>
+		<br>
+		<ons-row style="line-height: 2.5em;background-color: #4A4A4A;  color: white">
+			<ons-col>
+				Total Payment Amount:
+			</ons-col>
+			<ons-col>
+				<div style="text-align: left;     line-height: 2.5em;">{{get_total_payment_amount()}}</div>
+			</ons-col>
+		</ons-row>
+		<br>
+
+		<ons-button ng-disabled="check_credit_summary_before_submit()"
+					class="login-button" ng-click="Click_Submit_Credit()"
+					style="margin: 0 auto 0.5em auto; width: 80%; display: block;">PAY
+		</ons-button>
+
+		<ons-button class="cancel-button" ng-click="Click_Cancel_Credit()" style="margin: 0 auto 0 auto; width: 80%;
+    display: block;">Cancel
+		</ons-button>
+
+	</form>
+</div>

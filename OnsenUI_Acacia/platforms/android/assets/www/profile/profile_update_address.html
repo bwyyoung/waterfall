@@ -1,0 +1,107 @@
+
+
+<ons-page style="background-image: url('components/monaca-onsenui/images/background_tile_dark_small.png');">
+	<div style="width: 100%" class="scrollable">
+		<form is='y-scroll-container' class="login-form" style="width: 100%;
+		 font-family: 'default_font_1';
+margin: 0 auto 0 auto; "  ng-init="init_update_address()" novalidate
+			  name='form' >
+			<ons-toolbar fixed-style>
+				<div class="left">
+					<ons-toolbar-button ng-click="update_address_back()"  >
+						<div style="font-family: nuiconfont !important; font-weight: bolder">&#xe002;</div>
+					</ons-toolbar-button>
+				</div>
+				<div class="center" style="font-weight: bolder">Update Address</div>
+			</ons-toolbar>
+			<div class="navigation_margin"></div>
+			<div class=" country_container" style="margin: 0 auto 0 auto;">
+			<br>
+			<input
+					ng-model='address.number'
+					name=''
+					type="text"
+					class="text-input--underbar  login_text"
+					placeholder="Home Address No."
+					value=""
+					style="text-align: center;width: 80%;"
+			>
+			<br>
+			<input
+					ng-model='address.street'
+					name=''
+					type="text"
+					class="text-input--underbar  login_text"
+					placeholder="Street"
+					value=""
+					style="text-align: center;width: 80%;"
+			>
+			<br>
+			<input
+					ng-model='address.village'
+					name=''
+					type="text"
+					class="text-input--underbar  login_text"
+					placeholder="Village"
+					value=""
+					style="text-align: center;width: 80%;"
+			>
+			<br>
+			<input
+					ng-model='address.state'
+					name=''
+					type="text"
+					class="text-input--underbar  login_text"
+					placeholder="State/Province"
+					value=""
+					style="text-align: center;width: 80%;"
+			>
+			<br>
+			<input
+					ng-model='address.postcode'
+					name=''
+					type="text"
+					class="text-input--underbar  login_text"
+					placeholder="Postal Code"
+					value=""
+					style="text-align: center;width: 80%;"
+			>
+			<br>
+				<div style="width: 80%; margin: 0 auto 0 auto;">
+			<input
+					id="country"
+					ng-model='address.country'
+					name=''
+					type="text"
+					class="text-input--underbar  login_text"
+					placeholder="Country"
+					value=""
+					style="text-align: left;"
+
+			>
+			<br>
+			<input
+					id="city"
+					ng-model='address.city'
+					name=''
+					type="text"
+					class="text-input--underbar  login_text"
+					placeholder="District/Town/City"
+					value=""
+					style="text-align: left;"
+			>
+				</div>
+				<br>
+			<span ng-show="form.$dirty && check_update_address()" style=" color: red; font-weight: bolder ;vertical-align: middle">{{address_error_message}}</span>
+				<br><br>
+			<ons-button  style="width: 80%;" ng-disabled="check_update_address()" var="" class="login-button" ng-click="click_update_address()" >Update Address</ons-button>
+				<br><br>
+
+			</div>
+		</form>
+	</div>
+</div>
+
+
+</ons-page>
+

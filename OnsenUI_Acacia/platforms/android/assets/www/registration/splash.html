@@ -1,0 +1,34 @@
+
+<ons-dialog ng-controller="registration" var="dialog_registration" animation="none" style="
+width: 100%; height: 100%;
+opacity:1;
+z-index: 100;
+  display:table;
+" cancelable>
+
+	<ons-navigator var="nav_registration" animation="simpleslide" style="position: absolute">
+		<div  class="login-form" style="   width: 70%;
+  height: 70%;
+  overflow: visible;
+  margin: auto;
+  position: absolute;
+  top:  0%; left: 0; bottom: 0; right: 0;" >
+			<ons-toolbar fixed-style >
+				<div class="center" style="font-weight: bolder">Welcome</div>
+			</ons-toolbar>
+			<img src="css/custom_images/logo.png" class="logo">
+			<br>
+			<ons-button  class="login-button" ng-click="page_load_login()">Login</ons-button>
+			<br><br>
+			<ons-button  class="login-button" ng-click="page_load_signup()">Sign Up</ons-button>
+			<br><br>
+			<ons-button  class="login-button" ng-click="login_user(false)">Continue as Guest</ons-button>
+			<img src="css/custom_images/powered_by_numoni.svg" style="width: 7em; height: 5em">
+		</div>
+	</ons-navigator>
+</ons-dialog>
+
+
+
+
+

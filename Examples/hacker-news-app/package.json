@@ -1,0 +1,21 @@
+{
+  "author": "Nate Wienert",
+  "name": "reapp-hn",
+  "description": "A reapp example app, Hacker News Reader",
+  "version": "1.0.0",
+  "main": "./app/app.js",
+  "reapp": "0.8",
+  "scripts": {
+    "test": "",
+    "start": "node config/run.js",
+    "build": "node config/build.js",
+    "ios": "node config/build.ios.js",
+    "web": "reapp build web && hsync"
+  },
+  "dependencies": {
+    "parseurl": "^1.3.0",
+    "react": "0.13.2",
+    "reapp-kit": "^1.2.0",
+    "reapp-reducer": "^1.0.0"
+  }
+}

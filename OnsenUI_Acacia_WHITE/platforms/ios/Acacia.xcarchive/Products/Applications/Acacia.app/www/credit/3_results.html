@@ -1,0 +1,58 @@
+<div style="
+width: 100%; height: 100%; padding-top: 20%;background-color: #E6E6E6;">
+	<ons-toolbar fixed-style>
+		<div class="center" style="font-weight: bolder">Add Credit</div>
+	</ons-toolbar>
+	<div style="
+  position: fixed;
+     top: 20%;
+    left: 50%;
+    transform: translate(-50%);
+    width: 15em; height: 22em; background-color: white; overflow: visible">
+
+		<div class="user" ng-style="setProfileImage"
+			 style="transform: translateY(-50%) !important;    background-color: inherit;"></div>
+		<form name='credit_form'
+			  style="display: table; position: relative; width: 100%; height: 100%;    transform: translateY(-16%);">
+			<div class="light_title_font dont-break-out-no-hyphen" style="
+					text-align: center;
+					width: 100%;font-size: 1.2em">{{credit_data.username}}
+			</div>
+			<div style="text-align: center;
+		width: 100%; font-size: 0.7em; margin-bottom: 0.7em;">Level {{credit_data.level}}
+			</div>
+
+			<div style="
+					text-align: center;
+					width: 100%;font-size: 1.5em;margin-bottom: 0.7em;">Great!!
+			</div>
+
+			<div style="text-align: center;
+		width: 100%; font-size: 0.7em; font-weight: bolder; margin-bottom: 0.4em">You have added credit:
+			</div>
+			<div style="
+			font-size: 1em;
+			text-align: center; width: 100%;margin-bottom: 0.7em;
+
+			 ">{{credit_data.added_credit_string}}
+			</div>
+
+			<div style="text-align: center;
+		width: 100%; font-size: 0.7em; font-weight: bolder; margin-bottom: 0.2em">Credit Balance:
+			</div>
+			<div style="background-color: black; color: white;
+			vertical-align: middle;font-size: 0.8em; font-weight: bolder;
+			text-align: center; width: 80%; height: 44px;line-height: 44px;
+			    margin: 0 auto 0 auto;
+			 ">{{credit_data.credit_balance_new}}
+			</div>
+			<br>
+			<ons-button
+					class="login-button" ng-click="Click_Cancel_Credit()"
+					style="margin: 0 auto 0.5em auto; width: 80%; display: block;">OK
+			</ons-button>
+
+
+		</form>
+	</div>
+</div>

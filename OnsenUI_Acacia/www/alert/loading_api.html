@@ -1,0 +1,24 @@
+
+<ons-alert-dialog class="alert_fullscreen_loading" var="alert_loading_dialog"
+ng-click="$event.stopPropagation();">
+	<div style="
+  position: fixed;
+  width: 100%;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%);
+    overflow: visible" ng-controller="loading_api">
+
+			<div class="sk-folding-cube-cover"></div>
+			<div class="sk-folding-cube">
+				<div class="sk-cube1 sk-cube"></div>
+				<div class="sk-cube2 sk-cube"></div>
+				<div class="sk-cube4 sk-cube"></div>
+				<div class="sk-cube3 sk-cube"></div>
+			</div>
+		<br>
+		<span class="dont-break-out-no-hyphen"
+			  style="width: 90%; text-align: center; left: 5%;right: 5%; position: absolute;  margin: 0 auto;
+">{{alert_message}}</span>
+	</div>
+</ons-alert-dialog>
