@@ -22,55 +22,55 @@
             "PACKAGE_NAME": "com.example.helloworld"
         },
         "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-sqlite-storage": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-plugin-compat": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-plugin-file": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-plugin-camera": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-plugin-media-capture": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-plugin-crosswalk-webview": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-plugin-datepicker": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-ios-requires-fullscreen": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-custom-config": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-labs-local-webserver": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-plugin-wkwebview-engine": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         },
         "cordova-labs-wkwebview-engine-localhost": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         }
     },
     "dependent_plugins": {},

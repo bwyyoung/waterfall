@@ -1,4 +1,4 @@
-
+https://stackoverflow.com/questions/35890257/android-errorexecution-failed-for-task-apptransformclasseswithdexforrelease
 
 var settings = {
   "async": true,

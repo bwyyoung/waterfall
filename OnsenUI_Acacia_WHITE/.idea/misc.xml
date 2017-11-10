@@ -7,7 +7,7 @@
     <exe-path />
     <config-path />
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_3" default="false" />
   <component name="SvnBranchConfigurationManager">
     <option name="myConfigurationMap">
       <map>

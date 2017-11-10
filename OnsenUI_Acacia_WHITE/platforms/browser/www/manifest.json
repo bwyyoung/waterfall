@@ -1,0 +1,10 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Acacia",
+  "short_name": "Acacia",
+  "version": "liveworkstech.acacia.marketplacetest",
+  "icons": [],
+  "orientation": "portrait",
+  "start_url": "index.html"
+}

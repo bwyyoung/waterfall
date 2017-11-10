@@ -180,12 +180,33 @@ module.exports = [
         ]
     },
     {
-        "file": "plugins/ionic-plugin-keyboard/www/browser/keyboard.js",
-        "id": "ionic-plugin-keyboard.keyboard",
-        "pluginId": "ionic-plugin-keyboard",
+        "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
+        "id": "cordova-plugin-camera.Camera",
+        "pluginId": "cordova-plugin-camera",
         "clobbers": [
-            "cordova.plugins.Keyboard"
-        ],
+            "Camera"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
+        "id": "cordova-plugin-camera.CameraPopoverOptions",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "CameraPopoverOptions"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-camera/www/Camera.js",
+        "id": "cordova-plugin-camera.camera",
+        "pluginId": "cordova-plugin-camera",
+        "clobbers": [
+            "navigator.camera"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-camera/src/browser/CameraProxy.js",
+        "id": "cordova-plugin-camera.CameraProxy",
+        "pluginId": "cordova-plugin-camera",
         "runs": true
     },
     {
@@ -200,6 +221,37 @@ module.exports = [
         "file": "plugins/cordova-plugin-device/src/browser/DeviceProxy.js",
         "id": "cordova-plugin-device.DeviceProxy",
         "pluginId": "cordova-plugin-device",
+        "runs": true
+    },
+    {
+        "file": "plugins/cordova-plugin-dialogs/www/notification.js",
+        "id": "cordova-plugin-dialogs.notification",
+        "pluginId": "cordova-plugin-dialogs",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-dialogs/www/browser/notification.js",
+        "id": "cordova-plugin-dialogs.notification_browser",
+        "pluginId": "cordova-plugin-dialogs",
+        "merges": [
+            "navigator.notification"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "pluginId": "cordova-plugin-inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
+    },
+    {
+        "file": "plugins/cordova-plugin-inappbrowser/src/browser/InAppBrowserProxy.js",
+        "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
+        "pluginId": "cordova-plugin-inappbrowser",
         "runs": true
     },
     {
@@ -228,36 +280,6 @@ module.exports = [
             "cordova.plugins.notification.local.core",
             "plugin.notification.local.core"
         ]
-    },
-    {
-        "file": "plugins/numoni.acacia.marketplace.android_quit/www/android_quit.js",
-        "id": "numoni.acacia.marketplace.android_quit.android_quit",
-        "pluginId": "numoni.acacia.marketplace.android_quit",
-        "clobbers": [
-            "android_quit"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-sim/www/sim.js",
-        "id": "cordova-plugin-sim.Sim",
-        "pluginId": "cordova-plugin-sim",
-        "merges": [
-            "window.plugins.sim"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
-        "id": "cordova-plugin-statusbar.statusbar",
-        "pluginId": "cordova-plugin-statusbar",
-        "clobbers": [
-            "window.StatusBar"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-statusbar/src/browser/StatusBarProxy.js",
-        "id": "cordova-plugin-statusbar.StatusBarProxy",
-        "pluginId": "cordova-plugin-statusbar",
-        "runs": true
     },
     {
         "file": "plugins/cordova-plugin-media-capture/www/CaptureAudioOptions.js",
@@ -328,42 +350,11 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
-        "id": "cordova-sqlite-storage.SQLitePlugin",
-        "pluginId": "cordova-sqlite-storage",
-        "clobbers": [
-            "SQLitePlugin"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
-        "id": "cordova-plugin-inappbrowser.inappbrowser",
-        "pluginId": "cordova-plugin-inappbrowser",
-        "clobbers": [
-            "cordova.InAppBrowser.open",
-            "window.open"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-inappbrowser/src/browser/InAppBrowserProxy.js",
-        "id": "cordova-plugin-inappbrowser.InAppBrowserProxy",
-        "pluginId": "cordova-plugin-inappbrowser",
-        "runs": true
-    },
-    {
-        "file": "plugins/cordova-plugin-dialogs/www/notification.js",
-        "id": "cordova-plugin-dialogs.notification",
-        "pluginId": "cordova-plugin-dialogs",
+        "file": "plugins/cordova-plugin-sim/www/sim.js",
+        "id": "cordova-plugin-sim.Sim",
+        "pluginId": "cordova-plugin-sim",
         "merges": [
-            "navigator.notification"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-dialogs/www/browser/notification.js",
-        "id": "cordova-plugin-dialogs.notification_browser",
-        "pluginId": "cordova-plugin-dialogs",
-        "merges": [
-            "navigator.notification"
+            "window.plugins.sim"
         ]
     },
     {
@@ -381,62 +372,74 @@ module.exports = [
         "runs": true
     },
     {
-        "file": "plugins/cordova-plugin-camera/www/CameraConstants.js",
-        "id": "cordova-plugin-camera.Camera",
-        "pluginId": "cordova-plugin-camera",
+        "file": "plugins/cordova-plugin-statusbar/www/statusbar.js",
+        "id": "cordova-plugin-statusbar.statusbar",
+        "pluginId": "cordova-plugin-statusbar",
         "clobbers": [
-            "Camera"
+            "window.StatusBar"
         ]
     },
     {
-        "file": "plugins/cordova-plugin-camera/www/CameraPopoverOptions.js",
-        "id": "cordova-plugin-camera.CameraPopoverOptions",
-        "pluginId": "cordova-plugin-camera",
-        "clobbers": [
-            "CameraPopoverOptions"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-camera/www/Camera.js",
-        "id": "cordova-plugin-camera.camera",
-        "pluginId": "cordova-plugin-camera",
-        "clobbers": [
-            "navigator.camera"
-        ]
-    },
-    {
-        "file": "plugins/cordova-plugin-camera/src/browser/CameraProxy.js",
-        "id": "cordova-plugin-camera.CameraProxy",
-        "pluginId": "cordova-plugin-camera",
+        "file": "plugins/cordova-plugin-statusbar/src/browser/StatusBarProxy.js",
+        "id": "cordova-plugin-statusbar.StatusBarProxy",
+        "pluginId": "cordova-plugin-statusbar",
         "runs": true
+    },
+    {
+        "file": "plugins/cordova-sqlite-storage/www/SQLitePlugin.js",
+        "id": "cordova-sqlite-storage.SQLitePlugin",
+        "pluginId": "cordova-sqlite-storage",
+        "clobbers": [
+            "SQLitePlugin"
+        ]
+    },
+    {
+        "file": "plugins/ionic-plugin-keyboard/www/browser/keyboard.js",
+        "id": "ionic-plugin-keyboard.keyboard",
+        "pluginId": "ionic-plugin-keyboard",
+        "clobbers": [
+            "cordova.plugins.Keyboard"
+        ],
+        "runs": true
+    },
+    {
+        "file": "plugins/liveworkstech.acacia.marketplace-test.android_quit/www/android_quit.js",
+        "id": "liveworkstech.acacia.marketplace-test.android_quit.android_quit",
+        "pluginId": "liveworkstech.acacia.marketplace-test.android_quit",
+        "clobbers": [
+            "android_quit"
+        ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
 {
-    "cordova-plugin-compat": "1.0.0",
-    "cordova-plugin-file": "4.2.0",
-    "ionic-plugin-keyboard": "2.2.1",
-    "cordova-plugin-datepicker": "0.9.3",
-    "cordova-ios-requires-fullscreen": "0.0.2",
-    "cordova-labs-local-webserver": "2.4.0",
-    "cordova-plugin-wkwebview-engine": "1.0.3",
-    "cordova-labs-wkwebview-engine-localhost": "0.5.0",
-    "cordova-plugin-device": "1.1.2",
-    "cordova-plugin-local-notifications-pgb": "0.8.2-rc.1",
-    "numoni.acacia.marketplace.android_quit": "0.2.11",
-    "cordova-plugin-console": "1.1.0",
-    "cordova-plugin-sim": "1.3.3",
-    "cordova-plugin-statusbar": "2.2.0",
-    "cordova-plugin-crosswalk-webview": "2.1.0",
-    "cordova-plugin-media-capture": "1.4.3",
-    "cordova-sqlite-storage": "2.0.4",
-    "cordova-plugin-inappbrowser": "1.7.1",
-    "cordova-plugin-dialogs": "1.3.3",
-    "cordova-plugin-splashscreen": "4.0.3",
-    "cordova-plugin-whitelist": "1.3.2",
+    "android.support.v13": "23.0.1-r2",
+    "cordova-plugin-compat": "1.2.0",
+    "cordova-plugin-file": "4.3.3",
+    "cordova-common-registerusernotificationsettings-mm": "1.0.1",
     "cordova-custom-config": "2.0.3",
-    "cordova-plugin-camera": "2.4.1"
+    "cordova-ios-requires-fullscreen": "0.0.2",
+    "cordova-plugin-wkwebview-engine": "1.1.3",
+    "cordova-plugin-camera": "2.4.1",
+    "cordova-plugin-console": "1.1.0",
+    "cordova-plugin-crosswalk-webview": "2.1.0",
+    "cordova-plugin-datepicker": "0.9.3",
+    "cordova-plugin-device": "1.1.6",
+    "cordova-plugin-dialogs": "1.3.3",
+    "cordova-plugin-inappbrowser": "1.7.1",
+    "cordova-plugin-local-notifications-pgb": "0.8.2-rc.1",
+    "cordova-plugin-media-capture": "1.4.3",
+    "cordova-plugin-sim": "1.3.3",
+    "cordova-plugin-splashscreen": "4.0.3",
+    "cordova-plugin-statusbar": "2.2.0",
+    "cordova-plugin-whitelist": "1.3.2",
+    "cordova-sqlite-storage": "2.0.4",
+    "ionic-plugin-keyboard": "2.2.1",
+    "liveworkstech.acacia.marketplace-test.android_quit": "0.2.11",
+    "cocoon-cordova-labs-local-webserver": "2.4.1",
+    "cocoon-cordova-plugin-wkwebview-engine": "1.1.1",
+    "cocoon-cordova-labs-wkwebview-engine-localhost": "0.5.1"
 }
 // BOTTOM OF METADATA
 });

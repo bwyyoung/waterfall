@@ -5,7 +5,7 @@ var scope_news;
 /**
  * @controller news
  * @desc news controller for news feed
- * - currently, we show a news feed of numoni website using iframe
+ * - currently, we show a news feed of liveworkstech website using iframe
  * - in future implementation:
  *      - load rss feed of latest loans, super deals, loan trends, etc.
  *      - website that is built specifically for marketplace. mini website.

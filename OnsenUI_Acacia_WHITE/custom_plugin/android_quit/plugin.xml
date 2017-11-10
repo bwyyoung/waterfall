@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
-		id="numoni.acacia.marketplace-test.android_quit"
+		id="liveworkstech.acacia.marketplace-test.android_quit"
 		version="0.2.11">
 	<name>android_quit</name>
 	<description>The coolest Plugin ever implemented</description>

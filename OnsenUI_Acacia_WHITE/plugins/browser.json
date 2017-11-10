@@ -1,82 +1,91 @@
 {
-    "prepare_queue": {
-        "installed": [],
-        "uninstalled": []
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
     },
-    "config_munge": {
-        "files": {}
+    "cordova-ios-requires-fullscreen": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
     },
-    "installed_plugins": {
-        "cordova-plugin-file": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-datepicker": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-ios-requires-fullscreen": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-labs-wkwebview-engine-localhost": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-local-notifications-pgb": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "numoni.acacia.marketplace-test.android_quit": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-compat": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-console": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-sim": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-wkwebview-engine": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-crosswalk-webview": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-media-capture": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-sqlite-storage": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-dialogs": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-custom-config": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        },
-        "cordova-plugin-camera": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        }
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
     },
-    "dependent_plugins": {
-        "cordova-labs-local-webserver": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace-test"
-        }
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-console": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-crosswalk-webview": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-datepicker": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-dialogs": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-local-notifications-pgb": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-sim": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-plugin-wkwebview-engine": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "liveworkstech.acacia.marketplace-test.android_quit": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cocoon-cordova-labs-wkwebview-engine-localhost": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
     }
+  },
+  "dependent_plugins": {
+    "android.support.v13": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cordova-common-registerusernotificationsettings-mm": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cocoon-cordova-labs-local-webserver": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    },
+    "cocoon-cordova-plugin-wkwebview-engine": {
+      "PACKAGE_NAME": "liveworkstech.acacia.marketplacetest"
+    }
+  }
 }

@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+PRODID:-//TimeTrade Systems Inc//TimeDriver//EN
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20170926T125954Z
+DTSTART:20170929T233000Z
+DTEND:20170930T003000Z
+SUMMARY:Alex Wong - Personal Coaching Session
+UID:2017-09-26T12:59:51Z-8842259@my.timedriver.com
+ORGANIZER;CN=Alex Wong:MailTo:alexwong440@hotmail.com
+SEQUENCE:1
+DESCRIPTION:Instructions : Please connect via Skype (alexwongcs80)\nPerso
+ nal Strengths Coaching Session\n\nInvitee Details\n\nName : BRIAN YOUNG 
+ WEI YAN\nCompany : Student\nEmail : bwyyoung@gmail.com\nPhone : +3375806
+ 1039\nTimezone : Europe/Berlin\n\nOrganizer Details\n\nName : Alex Wong\
+ nCompany : Strengths Alchemy\nTimezone : Singapore\n\nConfirmation # : 8
+ 842259\n\nTimeTrade (TM) Phone Appointment\n\nLink to cancel or reschedu
+ le this appointment : \nhttps://my-schedule.timetrade.com/app/td-1510411
+ /workflows/n2tpq/find?appointmentId=8842259\n\n\n\n\n\n\n\n\n
+X-ALT-DESC;FMTTYPE=text/html:<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01
+ //EN" "http://www.w3.org/TR/html4/strict.dtd">\n<html>\n<body>\n<font fa
+ ce="Arial\, Helvetica\, sans-serif" size="2">Instructions:<br>Please con
+ nect via Skype (alexwongcs80)<br>\n<br>\n<br>\n			Description:<br>Person
+ al Strengths Coaching Session<br>\n<br>\n		Invitee Details:\n		<br>\n<br
+ >\n		Name: BRIAN YOUNG WEI YAN<br>\n			Company: Student<br>\n   		Email:
+  <a href="mailto:bwyyoung@gmail.com">bwyyoung@gmail.com</a>\n<br>\n			Ph
+ one: +33758061039<br>\n		Timezone: Europe/Berlin<br>\n<br>\n		Organizer 
+ Details:\n		<br>\n<br>\n		Name: Alex Wong<br>\n			Company: Strengths Alc
+ hemy<br>\n		Timezone: Singapore<br>\n<br>\n		Confirmation#: 8842259<br>\
+ n<br>\n		TimeTrade (TM) Phone Appointment\n		<br>\n<br>\n<a target="_bla
+ nk" href="https://my-schedule.timetrade.com/app/td-1510411/workflows/n2t
+ pq/find?t=B5A824E4966AB787D8CA7C2AB1964F7EO345B137540BE78757968EB90FD7E6
+ FDFBF632C352AFAD9C5950652179384531D908D1C2A3B220A3A17A043B6EA35E81ED2ADF
+ E7FD7D38AEC5FD1AB0579CE9898070B6D9C97F3DE5375E8FDF5F6BBFFE27751A0522BD81
+ F35198F235B9518765CCE59C8676972C6403EC79ED404C96275A3A841139CC094FB51BD7
+ 16F2509B3A06EC10F8A0CCA845DB4055B7F1B0F222369CF703866E73D75DE07DD8E7ED1E
+ 707D2C1BAF65CB5634A40579B070058DDFA">Cancel or Reschedule this appointme
+ nt</a></font>\n</body>\n</html>\n
+LOCATION:Phone or Web Meeting
+CATEGORIES:Personal
+URL:https://www.timetrade.com/td
+STATUS:CONFIRMED
+CLASS:PRIVATE
+END:VEVENT
+END:VCALENDAR

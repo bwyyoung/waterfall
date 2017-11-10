@@ -51,9 +51,10 @@ public class ClickActivity extends AbstractClickActivity {
     public Notification buildNotification (Builder builder) {
         return builder.build();
     }
-    @Override
-    protected void onStart() {
-        super.onStart();
-        setVisible(true);
-    }
+
+	@Override
+	protected void onStart() {
+		super.onStart();
+		setVisible(true);
+	}
 }

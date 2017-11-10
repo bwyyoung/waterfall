@@ -377,11 +377,19 @@ module.exports = [
     "runs": true
   },
   {
-    "id": "numoni.acacia.marketplace-test.android_quit.android_quit",
-    "file": "plugins/numoni.acacia.marketplace-test.android_quit/www/android_quit.js",
-    "pluginId": "numoni.acacia.marketplace-test.android_quit",
+    "id": "liveworkstech.acacia.marketplace-test.android_quit.android_quit",
+    "file": "plugins/liveworkstech.acacia.marketplace-test.android_quit/www/android_quit.js",
+    "pluginId": "liveworkstech.acacia.marketplace-test.android_quit",
     "clobbers": [
       "android_quit"
+    ]
+  },
+  {
+    "id": "cocoon-cordova-plugin-wkwebview-engine.ios-wkwebview-exec",
+    "file": "plugins/cocoon-cordova-plugin-wkwebview-engine/src/www/ios/ios-wkwebview-exec.js",
+    "pluginId": "cocoon-cordova-plugin-wkwebview-engine",
+    "clobbers": [
+      "cordova.exec"
     ]
   }
 ];
@@ -389,14 +397,12 @@ module.exports.metadata =
 // TOP OF METADATA
 {
   "android.support.v13": "23.0.1-r2",
+  "cordova-plugin-compat": "1.2.0",
+  "cordova-plugin-file": "4.3.3",
   "cordova-common-registerusernotificationsettings-mm": "1.0.1",
   "cordova-custom-config": "2.0.3",
   "cordova-ios-requires-fullscreen": "0.0.2",
-  "cordova-plugin-compat": "1.2.0",
-  "cordova-plugin-file": "4.3.3",
-  "cordova-labs-local-webserver": "2.4.0",
   "cordova-plugin-wkwebview-engine": "1.1.3",
-  "cordova-labs-wkwebview-engine-localhost": "0.5.0",
   "cordova-plugin-camera": "2.4.1",
   "cordova-plugin-crosswalk-webview": "2.1.0",
   "cordova-plugin-datepicker": "0.9.3",
@@ -411,7 +417,10 @@ module.exports.metadata =
   "cordova-plugin-whitelist": "1.3.2",
   "cordova-sqlite-storage": "2.0.4",
   "ionic-plugin-keyboard": "2.2.1",
-  "numoni.acacia.marketplace-test.android_quit": "0.2.11"
+  "liveworkstech.acacia.marketplace-test.android_quit": "0.2.11",
+  "cocoon-cordova-labs-local-webserver": "2.4.1",
+  "cocoon-cordova-plugin-wkwebview-engine": "1.1.1",
+  "cocoon-cordova-labs-wkwebview-engine-localhost": "0.5.1"
 };
 // BOTTOM OF METADATA
 });

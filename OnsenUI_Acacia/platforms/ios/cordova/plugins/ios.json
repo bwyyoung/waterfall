@@ -9,7 +9,7 @@
     "installed_plugins": {},
     "dependent_plugins": {
         "cordova-plugin-compat": {
-            "PACKAGE_NAME": "numoni.acacia.marketplace"
+            "PACKAGE_NAME": "liveworkstech.acacia.marketplace"
         }
     }
 }

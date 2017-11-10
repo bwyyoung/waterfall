@@ -13,7 +13,7 @@
     <key>CFBundleIcons~ipad</key>
     <dict/>
     <key>CFBundleIdentifier</key>
-    <string>numoni.acacia.marketplace-test</string>
+    <string>liveworkstech.acacia.marketplacetest</string>
     <key>CFBundleInfoDictionaryVersion</key>
     <string>6.0</string>
     <key>CFBundleName</key>
@@ -61,6 +61,10 @@
     <array>
       <string>UIInterfaceOrientationPortrait</string>
     </array>
+    <key>UIStatusBarHidden</key>
+    <true/>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <false/>
     <key>NSCameraUsageDescription</key>
     <string/>
     <key>NSPhotoLibraryUsageDescription</key>
@@ -69,9 +73,5 @@
     <string/>
     <key>NSMicrophoneUsageDescription</key>
     <string/>
-    <key>UIStatusBarHidden</key>
-    <true/>
-    <key>UIViewControllerBasedStatusBarAppearance</key>
-    <false/>
   </dict>
 </plist>

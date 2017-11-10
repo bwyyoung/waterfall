@@ -7,7 +7,7 @@ Acacia.controller('contact_us', function ($scope) {
 
     //HTML string for 'contact us' accordion group.
     $scope.contact_us = "<h3>Office</h3> " +
-        "<div style='font-weight: bold'>Numoni P2P Marketplace Headquarters</div>" +
+        "<div style='font-weight: bold'>liveworkstech P2P Marketplace Headquarters</div>" +
         "D-07-1 Plaza Kelana Jaya<br>" +
         "Jalan SS7/13A<br>" +
         "47301 Petaling Jaya<br>" +
@@ -15,9 +15,9 @@ Acacia.controller('contact_us', function ($scope) {
         "Malaysia<br><br> " +
         "<h3>Email</h3> " +
         "<div style='font-weight: bold'>Investor Services & Questions: </div>" +
-        "investorservices@numoni.com<br> " +
+        "investorservices@liveworkstech.com<br> " +
         "<div style='font-weight: bold'>Borrowers & General Questions: </div>" +
-        "customerservice@numoni.com<br><br> " +
+        "customerservice@liveworkstech.com<br><br> " +
         "<h3>Telephone</h3> " +
         "+6012-9886207<br>";
 
