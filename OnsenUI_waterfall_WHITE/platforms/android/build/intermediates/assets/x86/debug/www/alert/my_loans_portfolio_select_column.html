@@ -1,0 +1,94 @@
+<ons-alert-dialog style="z-index: 2147483647; width: 20em;" var="alertdialog" animation="default" animation="none"
+				  cancelable ng-controller="loan_portfolio_details">
+	<div class="alert-dialog-title">View Column</div>
+	<div style="color: white;
+        line-height: 1em;
+    float: left;
+    width: 100%;">
+		<ul class="list" ng-init="init_select_column()"
+		>
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="LoanId" ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Loan ID
+				</label>
+			</li>
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="InvestedDate" ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Invested Date
+				</label>
+			</li>
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="FundedDate" ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Funded Date
+				</label>
+			</li>
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="MaturityDate" ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Maturity Date
+				</label>
+			</li>
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="Tenure" ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Tenure (Days)
+				</label>
+			</li>
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="InvestmentAmount" ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Investment Amount
+				</label>
+			</li>
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="Rating" ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Rating (Stars)
+				</label>
+			</li>
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="NetReturn" ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Net Return
+				</label>
+			</li>
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="InvestmentReturnAmount" ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Investment Return Amount
+				</label>
+			</li>
+
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="InvestmentReturnPercentage"
+						   ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Investment Return %
+				</label>
+			</li>
+			<li class="list__item list__item--tappable">
+				<label class="checkbox checkbox--list-item">
+					<input type="checkbox" id="RepaymentStatus"
+						   ng-click="click_column_filter($event);">
+					<div class="checkbox__checkmark checkbox--list-item__checkmark"></div>
+					Status
+				</label>
+			</li>
+			<ons-button class="login-button" ng-click="click_column_selection()">OK</ons-button>
+		</ul>
+
+	</div>
+</ons-alert-dialog>

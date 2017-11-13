@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable-v21/button_compat.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable-v21/button_compat.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable-v21/button_borderless_compat.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable-v21/button_borderless_compat.xml"
+    }
+]

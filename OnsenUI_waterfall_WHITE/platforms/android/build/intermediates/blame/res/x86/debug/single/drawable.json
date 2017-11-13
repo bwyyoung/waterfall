@@ -1,0 +1,86 @@
+[
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/dropdown_label_color.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/dropdown_label_color.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/ondemand_overlay.9.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/ondemand_overlay.9.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/notification_tile_bg.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/color_button_background.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/color_button_background.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/dropdown_popup_background_down.9.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/dropdown_popup_background_down.9.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/color_picker_border.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/color_picker_border.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/button_compat_shape.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/button_compat_shape.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/dropdown_popup_background_up.9.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/dropdown_popup_background_up.9.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/notification_bg_low.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/icon.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/res/drawable/icon.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/ic_warning.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/ic_warning.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/verify_checkmark.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/verify_checkmark.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/bubble.9.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/bubble.9.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/ic_search.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/ic_search.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/ic_menu_share_holo_light.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/notification_bg.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/notification_icon_background.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/color_picker_advanced_select_handle.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/color_picker_advanced_select_handle.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/dropdown_popup_background.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/dropdown_popup_background.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/autofill_chip_inset.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/autofill_chip_inset.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/x86/debug/drawable/bubble_arrow_up.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/drawable/bubble_arrow_up.png"
+    }
+]

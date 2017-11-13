@@ -1,0 +1,33 @@
+dependencies: \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/com.telerik.plugins.wkwebview/AppDelegate+WKWebViewPolyfill.m \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Classes/AppDelegate.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/com.telerik.plugins.wkwebview/MyMainViewController.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Classes/MainViewController.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegateImpl.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/com.telerik.plugins.wkwebview/CDVWebViewOperationsDelegate.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServer.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerRequest.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerResponse.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerPrivate.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerHTTPStatusCodes.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerFunctions.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerConnection.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerDataRequest.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerFileRequest.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerMultiPartFormRequest.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerURLEncodedFormRequest.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerDataResponse.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerErrorResponse.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerFileResponse.h \
+  Marketplace/Plugins/cordova-plugin-webserver/GCDWebServer.framework/Headers/GCDWebServerStreamedResponse.h

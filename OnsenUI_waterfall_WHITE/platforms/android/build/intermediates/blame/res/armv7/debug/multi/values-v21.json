@@ -1,0 +1,369 @@
+[
+    {
+        "outputFile": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/incremental/mergeArmv7DebugResources/merged.dir/values-v21/values-v21.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 103,
+                    "endOffset": 154
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 103,
+                        "endOffset": 154
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 159,
+                    "endColumn": 63,
+                    "endOffset": 218
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 159,
+                        "endColumn": 63,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 223,
+                    "endColumn": 66,
+                    "endOffset": 285
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endColumn": 66,
+                        "endOffset": 285
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 290,
+                    "endColumn": 63,
+                    "endOffset": 349
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 290,
+                        "endColumn": 63,
+                        "endOffset": 349
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 354,
+                    "endLine": 9,
+                    "endColumn": 12,
+                    "endOffset": 556
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-v21/ui_java_styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 251,
+                        "endLine": 9,
+                        "endColumn": 12,
+                        "endOffset": 453
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 561,
+                    "endLine": 12,
+                    "endColumn": 12,
+                    "endOffset": 715
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-v21/ui_java_styles.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 458,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 612
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 720,
+                    "endLine": 15,
+                    "endColumn": 12,
+                    "endOffset": 848
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 224,
+                        "endLine": 8,
+                        "endColumn": 12,
+                        "endOffset": 352
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 853,
+                    "endLine": 18,
+                    "endColumn": 12,
+                    "endOffset": 989
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-v21/styles.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 357,
+                        "endLine": 11,
+                        "endColumn": 12,
+                        "endOffset": 493
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 994,
+                    "endColumn": 115,
+                    "endOffset": 1105
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 354,
+                        "endColumn": 115,
+                        "endOffset": 465
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1110,
+                    "endColumn": 125,
+                    "endOffset": 1231
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 470,
+                        "endColumn": 125,
+                        "endOffset": 591
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1236,
+                    "endLine": 23,
+                    "endColumn": 12,
+                    "endOffset": 1399
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endLine": 4,
+                        "endColumn": 12,
+                        "endOffset": 218
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1404,
+                    "endLine": 26,
+                    "endColumn": 12,
+                    "endOffset": 1562
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 223,
+                        "endLine": 7,
+                        "endColumn": 12,
+                        "endOffset": 381
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1567,
+                    "endColumn": 125,
+                    "endOffset": 1688
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 596,
+                        "endColumn": 125,
+                        "endOffset": 717
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1693,
+                    "endLine": 30,
+                    "endColumn": 12,
+                    "endOffset": 1856
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 386,
+                        "endLine": 10,
+                        "endColumn": 12,
+                        "endOffset": 549
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1861,
+                    "endColumn": 127,
+                    "endOffset": 1984
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 722,
+                        "endColumn": 127,
+                        "endOffset": 845
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1989,
+                    "endLine": 34,
+                    "endColumn": 12,
+                    "endOffset": 2151
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 554,
+                        "endLine": 13,
+                        "endColumn": 12,
+                        "endOffset": 716
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2156,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 2323
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 850,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 1017
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2328,
+                    "endLine": 42,
+                    "endColumn": 12,
+                    "endOffset": 2661
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-v21/values-v21.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1022,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 1355
+                    }
+                }
+            }
+        ]
+    }
+]

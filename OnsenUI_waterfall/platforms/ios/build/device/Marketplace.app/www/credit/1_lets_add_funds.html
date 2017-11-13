@@ -1,0 +1,45 @@
+<ons-dialog  var="dialog_credit"
+			 animation="none"
+			 style="
+width: 100%; height: 100%;
+opacity:1;
+z-index: 100;
+display: table;
+"
+			 ng-controller="credit"
+			 cancelable>
+
+	<ons-navigator var="nav_credit" animation="simpleslide" style="position: absolute">
+		<div  style="background-image: url('components/monaca-onsenui/images/background_tile_dark_small.png');
+width: 100%; height: 100%; padding-top: 20%">
+				<ons-toolbar fixed-style >
+					<div class="left">
+						<ons-toolbar-button ng-click="dialog_credit.hide()"  >
+							<div style="font-family: nuiconfont !important; font-weight: bolder">&#xe002;</div>
+						</ons-toolbar-button>
+					</div>
+				</ons-toolbar>
+					<div style="
+			  position: fixed;
+			  top: 50%;
+			  left: 50%;
+			  transform: translate(-50%, -5%);
+				width: 80%; height: 100%;  overflow: visible">
+						<div style="width: 100%; height: 100%; margin: auto auto auto auto;">
+								<div class="light_title_font" style="font-size: 2em; width: 100%; margin: -25% auto 0 auto;
+						  text-align: center; font-weight: bold">
+									Let's add some funds.
+								</div>
+							<br>
+								<div style="font-family: Helvetica; width: 100%; margin: 0 auto 0 auto; font-size: 1em;
+								text-align: center;">
+									Add credit to your account to start investing.
+								</div>
+							<br>
+							<ons-button  class="login-button" onclick="nav_credit.pushPage('credit/2_add_credit.html')">OK</ons-button>
+						</div>
+				</div>
+		</div>
+	</ons-navigator>
+
+</ons-dialog>

@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/CDVLocalWebServer.m \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/CDVLocalWebServer.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVWebViewEngineProtocol.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServer.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerRequest.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerResponse.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerPrivate.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerHTTPStatusCodes.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerFunctions.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerConnection.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerDataRequest.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerFileRequest.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerMultiPartFormRequest.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerURLEncodedFormRequest.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerDataResponse.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerErrorResponse.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerFileResponse.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerStreamedResponse.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/ios/build/emulator/include/Cordova/NSDictionary+CordovaPreferences.h

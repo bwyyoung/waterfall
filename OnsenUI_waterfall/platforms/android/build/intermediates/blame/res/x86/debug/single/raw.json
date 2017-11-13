@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/raw/wifidirect_api.js",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/raw/wifidirect_api.js"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/raw/device_capabilities_api.js",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/raw/device_capabilities_api.js"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/raw/empty.wav",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/raw/empty.wav"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/raw/launch_screen_api.js",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/raw/launch_screen_api.js"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/raw/icudtl.dat",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/raw/icudtl.dat"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/raw/contacts_api.js",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/raw/contacts_api.js"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/raw/xwalk.pak",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/raw/xwalk.pak"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/raw/messaging_api.js",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/raw/messaging_api.js"
+    }
+]

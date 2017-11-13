@@ -1,0 +1,30 @@
+dependencies: \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/CDVLocalWebServer.m \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/CDVLocalWebServer.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVWebViewEngineProtocol.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServer.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerRequest.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerResponse.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerPrivate.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerHTTPStatusCodes.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerFunctions.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerConnection.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerDataRequest.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerFileRequest.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerMultiPartFormRequest.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerURLEncodedFormRequest.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerDataResponse.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerErrorResponse.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerFileResponse.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-labs-local-webserver/GCDWebServerStreamedResponse.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/NSDictionary+CordovaPreferences.h

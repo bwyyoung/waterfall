@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/drawable-xxxhdpi-v4/verify_checkmark.png",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/drawable-xxxhdpi/verify_checkmark.png"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/drawable-xxxhdpi-v4/ic_search.png",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/drawable-xxxhdpi/ic_search.png"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/drawable-xxxhdpi-v4/ic_warning.png",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/drawable-xxxhdpi/ic_warning.png"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/drawable-xxxhdpi-v4/ic_menu_share_holo_light.png",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/drawable-xxxhdpi/ic_menu_share_holo_light.png"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/x86/debug/drawable-xxxhdpi-v4/icon.png",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/res/drawable-xxxhdpi/icon.png"
+    }
+]

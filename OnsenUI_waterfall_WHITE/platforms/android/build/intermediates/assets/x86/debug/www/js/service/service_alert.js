@@ -1,0 +1,94 @@
+//TODO: Make this a service, instead of a controller.
+
+/**
+ * @service service_alert
+ * @desc this is a shared service that facilitates the creation of ons-alert dialogs,
+ * used for various purposes.
+ */
+waterfall.service('service_alert',
+    function () {
+
+        this.alert_message = '';
+        this.alert_cleared =
+        {
+            value: true
+        };
+        this.ALERT_INSUFFICIENT_CREDIT =
+            "alert/loan_marketplace_invest_insufficient_credit.html";
+        this.ALERT_LOADING_API = "alert/loading_api.html";
+
+        this.ALERT_ADDRESS_UPDATE_SUCCESS = "alert/address_update_success.html";
+        this.ALERT_ADDRESS_UPDATE_FAIL = "alert/address_update_fail.html";
+
+        this.ALERT_BANK_DETAILS_UPDATE_SUCCESS = "alert/bank_details_update_success.html";
+        this.ALERT_BANK_DETAILS_UPDATE_FAIL = "alert/bank_details_update_fail.html";
+
+        this.ALERT_EMAIL_ACTIVATION = "alert/email_activation.html";
+        this.ALERT_ERROR_NETWORK = "alert/error_network.html";
+        this.ALERT_LOGIN_BLOCKED = "alert/login_blocked.html";
+        this.ALERT_LOGIN_INVALID = "alert/login_invalid.html";
+        this.ALERT_PASSWORD_RESET_EMAIL_INPUT = "alert/password_reset_email_input.html";
+        this.ALERT_PASSWORD_RESET_EMAIL_INVALID = "alert/password_reset_email_invalid.html";
+        this.ALERT_PASSWORD_RESET_EMAIL_SENT = "alert/password_reset_email_sent.html";
+        this.ALERT_PASSWORD_RESET_NEWCONFIRM_MISMATCH = "alert/password_reset_newconfirm_mismatch.html";
+        this.ALERT_PASSWORD_RESET_NEWCONFIRM_SUCCESS = "alert/password_reset_newconfirm_success.html";
+        this.ALERT_PASSWORD_UPDATE_SUCCESS = "alert/password_update_success.html";
+        this.ALERT_CAMERA_OPTIONS = 'util/camera.html';
+        this.ALERT_LOGOUT_CONFIRM = 'alert/logout_confirm.html';
+
+        this.ALERT_SIGNUP_INVALID = 'alert/signup_invalid.html';
+
+        this.ALERT_LOAN_MARKETPLACE_LOAN_DETAILS = 'alert/loan_marketplace_loan_details.html';
+        this.ALERT_LOAN_MARKETPLACE_LOAN_DETAILS_INVEST_CONFIRM = 'alert/loan_marketplace_loan_details_invest_confirm.html';
+
+        this.ALERT_LOAN_MARKETPLACE_SIGNUP_NOTIFICATION_1 = "alert/loan_marketplace_signup_notification_1.html";
+        this.ALERT_LOAN_MARKETPLACE_SIGNUP_NOTIFICATION_2 = "alert/loan_marketplace_signup_notification_2.html";
+
+        this.ALERT_LOANS_PORTFOLIO_LOAN_DETAILS = 'alert/my_loans_portfolio_loan_details.html';
+        this.ALERT_LOANS_PORTFOLIO_TOTAL_INVESTMENT = 'alert/my_loans_portfolio_total_investment.html';
+        this.ALERT_LOANS_PORTFOLIO_SELECT_COLUMN = 'alert/my_loans_portfolio_select_column.html';
+
+        var that = this;
+
+        /**
+         * @function create_alert
+         * @desc create the alert dialog, based on one of the above strings
+         * @param ALERT_TYPE
+         * the alert type (see strings above) which reference a html file to load.
+         * @param ENABLE_SPECIAL_HIDE
+         * do we need to hide any intensive elements in order to display this alert?
+         * @returns {alert_promise}
+         * return a promise to the alert, allowing events to be handled outside of this function,
+         * such as prehide/posthide.
+         */
+        this.create_alert = function (ALERT_TYPE, ENABLE_SPECIAL_HIDE)
+        {
+            if (!this.alert_cleared.value)
+                return;
+            this.alert_message = '';
+            this.alert_cleared.value = false;
+            var alert_promise = ons.createAlertDialog(ALERT_TYPE);
+            if (typeof ENABLE_SPECIAL_HIDE == 'undefined' || ENABLE_SPECIAL_HIDE)
+                executeAsync(function () {
+                    $('#special_hide').prop('disabled', false);
+                });
+            alert_promise.then(
+                function (alertdialog) {
+                    alertdialog.show();
+                    alertdialog.on('prehide', function (event) {
+                        debug_log('alert prehide cleared value true');
+                        that.alert_cleared.value = true;
+                        if (typeof ENABLE_SPECIAL_HIDE == 'undefined' || ENABLE_SPECIAL_HIDE)
+                            executeAsync(function () {
+                                $('#special_hide').prop('disabled', true);
+                            });
+                    });
+                    alertdialog.on('posthide', function (event) {
+                        alertdialog.destroy();
+                    });
+                });
+            return alert_promise;
+        }
+
+    }
+);

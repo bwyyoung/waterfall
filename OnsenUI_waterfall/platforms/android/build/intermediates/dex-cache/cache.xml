@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/libs/sqlite-connector.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="76169ab23a4f939925491c6fe186749da5a56ee9">
+        <dex dex="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/pre-dexed/armv7/debug/sqlite-connector_2a0a05bd02fab75654c2e912c1e18b87ba5dda8e.jar" />
+    </item>
+    <item
+        jar="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f81eecb8d5e9e548f75f277830a94a9b37fbb987">
+        <dex dex="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/pre-dexed/armv7/debug/com.android.support-support-v4-24.0.0-beta1_00988fb2b03ed5870ceace85a90c93a326f04c18.jar" />
+    </item>
+    <item
+        jar="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="84ad9094783ccad25ecd152c31d635c6e426c3a4">
+        <dex dex="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/pre-dexed/armv7/debug/org.xwalk-xwalk_core_library-19.49.514.5_c9bd96f8002a9817addde2c525a3f6572132eeef.jar" />
+    </item>
+    <item
+        jar="/Users/bwyyoung/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0-beta1/support-annotations-24.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="04705c19cdec60364bc04e2e928c274da1ba301b">
+        <dex dex="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/pre-dexed/armv7/debug/support-annotations-24.0.0-beta1_0f7ae84f42cb8c67f6ee33e8c885ea94712a479c.jar" />
+    </item>
+    <item
+        jar="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="aca3adcea2c3c3b4b01ab766e677977d0f7dc8e5">
+        <dex dex="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/pre-dexed/armv7/debug/CordovaLib-unspecified-debug_eb672d8a9b3619b39a7e77851c07d367124044b8.jar" />
+    </item>
+    <item
+        jar="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/jars/libs/internal_impl-24.0.0-beta1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="23d564c059873f398dc5d967f56791a66472ce76">
+        <dex dex="/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/pre-dexed/armv7/debug/internal_impl-24.0.0-beta1_1e83358d8be6c537802187fc59555631605289e1.jar" />
+    </item>
+
+</items>

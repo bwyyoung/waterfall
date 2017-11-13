@@ -1,0 +1,89 @@
+
+<ons-navigator >
+
+   <ons-page ng-app="waterfall_Marketplace" ng-controller="page_home">
+
+       <div class="vertical_menu" ng-show="check_home_display()">
+           <div class="left" ng-click="slidemenu_open()" style="height: 2.5em;width: 100%;">
+               <div class="slidemenu_icon_font" style="
+                    text-align: center;
+                    width: 100%;
+                    line-height: 2.5em;
+                ">&#xe019;</div>
+           </div>
+
+
+           <div class="vertical_text_nav">
+
+           </div>
+       </div>
+
+        <div style="display: flex;
+  flex-flow: row;">
+            <div ng-show="is_menu_open()" style=" margin: auto;
+  position: absolute;
+ left: 45%; top: 45%;">
+                <ons-icon icon='fa-spinner' size="5em" spin='true' ></ons-icon>
+            </div>
+            <div   style="width: 89%; margin-left: auto; margin-right: auto;  position:relative"  ng-show="check_home_display() && !is_menu_open()" >
+                <div>
+                    <ons-toolbar-button  style="position: absolute;  right: 0%;  top: 0; "
+                                         ng-click="show_form_search();"  >
+                        <div class="slidemenu_icon_font">&#xe01a;</div>
+                    </ons-toolbar-button>
+                </div>
+
+                <div class="navigation_margin" style=" padding-top: 5px;"   ng-init="slideshow_start()" >
+                <div id="button_news" style=" height: 24vh; overflow: hidden;    "
+                     ng-click="page_load_news()">
+                    <div class="slideshow_text " style="font-size: 1.5em">Latest News</div>
+                    <div  name="slideshow" class="slideshow" >
+                        <img src="css/custom_images/page_home/news.jpg">
+                        <img src="css/custom_images/page_home/news.jpg">
+                        <img src="css/custom_images/page_home/news.jpg">
+                        <img src="css/custom_images/page_home/news.jpg">
+
+                    </div>
+                </div>
+                <br>
+                <div id="button_marketplace" style="height: 14vh; overflow: hidden;  "
+                     ng-click="page_load_loans_marketplace()">
+                    <div class="slideshow_text ">Browse Loan Marketplace</div>
+                    <div name="slideshow" class="slideshow" >
+                        <img src="css/custom_images/page_home/marketplace.jpg">
+                        <img src="css/custom_images/page_home/marketplace.jpg">
+                        <img src="css/custom_images/page_home/marketplace.jpg">
+                        <img src="css/custom_images/page_home/marketplace.jpg">
+
+                    </div>
+                </div>
+                <br>
+                <div id="button_statistics" style=" height: 14vh; overflow: hidden; ">
+                    <div class="slideshow_text ">User Investment Statistics</div>
+                    <div  name="slideshow" class="slideshow" >
+                        <img src="css/custom_images/page_home/statistics.jpg">
+                        <img src="css/custom_images/page_home/statistics.jpg">
+                        <img src="css/custom_images/page_home/statistics.jpg">
+                        <img src="css/custom_images/page_home/statistics.jpg">
+
+                    </div>
+                </div>
+                <br>
+                <div id="button_charts" style="height: 14vh; overflow: hidden;">
+                    <div class="slideshow_text ">Performance/ Charts/ etc.</div>
+                    <div  name="slideshow" class="slideshow" >
+                        <img src="css/custom_images/page_home/charts.jpg">
+                        <img src="css/custom_images/page_home/charts.jpg">
+                        <img src="css/custom_images/page_home/charts.jpg">
+                        <img src="css/custom_images/page_home/charts.jpg">
+                    </div>
+                </div>
+
+            </div>
+            </div>
+        </div>
+   </ons-page>
+</ons-navigator>
+
+
+

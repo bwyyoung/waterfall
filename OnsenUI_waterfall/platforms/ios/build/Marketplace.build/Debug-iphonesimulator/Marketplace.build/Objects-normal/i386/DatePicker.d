@@ -1,0 +1,20 @@
+dependencies: \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-plugin-datepicker/DatePicker.m \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/Marketplace/Plugins/cordova-plugin-datepicker/DatePicker.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDV.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVAvailability.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVAvailabilityDeprecated.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVAppDelegate.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVViewController.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVInvokedUrlCommand.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVCommandDelegate.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVCommandQueue.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVScreenOrientationDelegate.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVPlugin.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVPluginResult.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/NSMutableArray+QueueAdditions.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVWebViewEngineProtocol.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVURLProtocol.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVWhitelist.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVTimer.h \
+  /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall/platforms/ios/build/emulator/include/Cordova/CDVUserAgentUtil.h

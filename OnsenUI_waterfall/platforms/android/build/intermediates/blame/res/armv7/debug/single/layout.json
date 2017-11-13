@@ -1,0 +1,46 @@
+[
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/dropdown_item.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/dropdown_item.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/date_time_picker_dialog.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/date_time_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/color_picker_advanced_component.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/color_picker_advanced_component.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/two_field_date_picker.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/two_field_date_picker.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/date_time_suggestion.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/date_time_suggestion.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/color_picker_dialog_title.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/color_picker_dialog_title.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/autofill_keyboard_accessory_item.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/autofill_keyboard_accessory_item.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/multi_field_time_picker_dialog.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/multi_field_time_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/validation_message_bubble.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/validation_message_bubble.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/autofill_keyboard_accessory_icon.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/autofill_keyboard_accessory_icon.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout/color_picker_dialog_content.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout/color_picker_dialog_content.xml"
+    }
+]

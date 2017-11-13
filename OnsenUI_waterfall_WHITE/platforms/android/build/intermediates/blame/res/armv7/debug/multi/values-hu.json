@@ -1,0 +1,1109 @@
+[
+    {
+        "outputFile": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/incremental/mergeArmv7DebugResources/merged.dir/values-hu/values-hu.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 67,
+                    "endOffset": 118
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 0,
+                        "startOffset": 1260,
+                        "endColumn": 63,
+                        "endOffset": 1323
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 123,
+                    "endColumn": 64,
+                    "endOffset": 183
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 0,
+                        "startOffset": 1512,
+                        "endColumn": 60,
+                        "endOffset": 1572
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 188,
+                    "endColumn": 63,
+                    "endOffset": 247
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 0,
+                        "startOffset": 1324,
+                        "endColumn": 59,
+                        "endOffset": 1383
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 252,
+                    "endColumn": 70,
+                    "endOffset": 318
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 0,
+                        "startOffset": 2435,
+                        "endColumn": 66,
+                        "endOffset": 2501
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 323,
+                    "endColumn": 68,
+                    "endOffset": 387
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 0,
+                        "startOffset": 2502,
+                        "endColumn": 64,
+                        "endOffset": 2566
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 392,
+                    "endColumn": 68,
+                    "endOffset": 456
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 0,
+                        "startOffset": 2076,
+                        "endColumn": 64,
+                        "endOffset": 2140
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 461,
+                    "endColumn": 64,
+                    "endOffset": 521
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 0,
+                        "startOffset": 1809,
+                        "endColumn": 60,
+                        "endOffset": 1869
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 526,
+                    "endColumn": 76,
+                    "endOffset": 598
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 0,
+                        "startOffset": 2003,
+                        "endColumn": 72,
+                        "endOffset": 2075
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 603,
+                    "endColumn": 67,
+                    "endOffset": 666
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 0,
+                        "startOffset": 1870,
+                        "endColumn": 63,
+                        "endOffset": 1933
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 671,
+                    "endColumn": 72,
+                    "endOffset": 739
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 0,
+                        "startOffset": 1934,
+                        "endColumn": 68,
+                        "endOffset": 2002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 744,
+                    "endColumn": 55,
+                    "endOffset": 795
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 110,
+                        "endColumn": 51,
+                        "endOffset": 161
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 800,
+                    "endColumn": 77,
+                    "endOffset": 873
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 228,
+                        "endColumn": 73,
+                        "endOffset": 301
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 878,
+                    "endColumn": 69,
+                    "endOffset": 943
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 162,
+                        "endColumn": 65,
+                        "endOffset": 227
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 948,
+                    "endColumn": 109,
+                    "endOffset": 1053
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 0,
+                        "startOffset": 2997,
+                        "endColumn": 105,
+                        "endOffset": 3102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1058,
+                    "endColumn": 117,
+                    "endOffset": 1171
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 0,
+                        "startOffset": 2763,
+                        "endColumn": 113,
+                        "endOffset": 2876
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1176,
+                    "endColumn": 62,
+                    "endOffset": 1234
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 0,
+                        "startOffset": 1050,
+                        "endColumn": 58,
+                        "endOffset": 1108
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1239,
+                    "endColumn": 58,
+                    "endOffset": 1293
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 817,
+                        "endColumn": 54,
+                        "endOffset": 871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1298,
+                    "endColumn": 62,
+                    "endOffset": 1356
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 576,
+                        "endColumn": 58,
+                        "endOffset": 634
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1361,
+                    "endColumn": 59,
+                    "endOffset": 1416
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 761,
+                        "endColumn": 55,
+                        "endOffset": 816
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1421,
+                    "endColumn": 60,
+                    "endOffset": 1477
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 0,
+                        "startOffset": 872,
+                        "endColumn": 56,
+                        "endOffset": 928
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1482,
+                    "endColumn": 65,
+                    "endOffset": 1543
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 0,
+                        "startOffset": 929,
+                        "endColumn": 61,
+                        "endOffset": 990
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1548,
+                    "endColumn": 65,
+                    "endOffset": 1609
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 0,
+                        "startOffset": 285,
+                        "endColumn": 61,
+                        "endOffset": 346
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1614,
+                    "endColumn": 59,
+                    "endOffset": 1669
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 705,
+                        "endColumn": 55,
+                        "endOffset": 760
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1674,
+                    "endColumn": 63,
+                    "endOffset": 1733
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 516,
+                        "endColumn": 59,
+                        "endOffset": 575
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1738,
+                    "endColumn": 61,
+                    "endOffset": 1795
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 0,
+                        "startOffset": 1109,
+                        "endColumn": 57,
+                        "endOffset": 1166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1800,
+                    "endColumn": 62,
+                    "endOffset": 1858
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 0,
+                        "startOffset": 991,
+                        "endColumn": 58,
+                        "endOffset": 1049
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1863,
+                    "endColumn": 73,
+                    "endOffset": 1932
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 635,
+                        "endColumn": 69,
+                        "endOffset": 704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1937,
+                    "endColumn": 59,
+                    "endOffset": 1992
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 347,
+                        "endColumn": 55,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1997,
+                    "endColumn": 65,
+                    "endOffset": 2058
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 403,
+                        "endColumn": 61,
+                        "endOffset": 464
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 2063,
+                    "endColumn": 54,
+                    "endOffset": 2113
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 465,
+                        "endColumn": 50,
+                        "endOffset": 515
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 2118,
+                    "endColumn": 96,
+                    "endOffset": 2210
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 0,
+                        "startOffset": 1167,
+                        "endColumn": 92,
+                        "endOffset": 1259
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 2215,
+                    "endColumn": 61,
+                    "endOffset": 2272
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 0,
+                        "startOffset": 2705,
+                        "endColumn": 57,
+                        "endOffset": 2762
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 34,
+                    "startColumn": 4,
+                    "startOffset": 2277,
+                    "endColumn": 73,
+                    "endOffset": 2346
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 0,
+                        "startOffset": 2567,
+                        "endColumn": 69,
+                        "endOffset": 2636
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 35,
+                    "startColumn": 4,
+                    "startOffset": 2351,
+                    "endColumn": 62,
+                    "endOffset": 2409
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 0,
+                        "startOffset": 1384,
+                        "endColumn": 58,
+                        "endOffset": 1442
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 36,
+                    "startColumn": 4,
+                    "startOffset": 2414,
+                    "endColumn": 71,
+                    "endOffset": 2481
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 0,
+                        "startOffset": 2637,
+                        "endColumn": 67,
+                        "endOffset": 2704
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 37,
+                    "startColumn": 4,
+                    "startOffset": 2486,
+                    "endColumn": 83,
+                    "endOffset": 2565
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 0,
+                        "startOffset": 2355,
+                        "endColumn": 79,
+                        "endOffset": 2434
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 2570,
+                    "endColumn": 104,
+                    "endOffset": 2670
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 0,
+                        "startOffset": 110,
+                        "endColumn": 100,
+                        "endOffset": 210
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 39,
+                    "startColumn": 4,
+                    "startOffset": 2675,
+                    "endColumn": 58,
+                    "endOffset": 2729
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 0,
+                        "startOffset": 616,
+                        "endColumn": 54,
+                        "endOffset": 670
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 40,
+                    "startColumn": 4,
+                    "startOffset": 2734,
+                    "endColumn": 140,
+                    "endOffset": 2870
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 0,
+                        "startOffset": 383,
+                        "endColumn": 136,
+                        "endOffset": 519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 41,
+                    "startColumn": 4,
+                    "startOffset": 2875,
+                    "endColumn": 99,
+                    "endOffset": 2970
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 0,
+                        "startOffset": 520,
+                        "endColumn": 95,
+                        "endOffset": 615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 42,
+                    "startColumn": 4,
+                    "startOffset": 2975,
+                    "endColumn": 84,
+                    "endOffset": 3055
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 0,
+                        "startOffset": 302,
+                        "endColumn": 80,
+                        "endOffset": 382
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 43,
+                    "startColumn": 4,
+                    "startOffset": 3060,
+                    "endColumn": 72,
+                    "endOffset": 3128
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 0,
+                        "startOffset": 671,
+                        "endColumn": 68,
+                        "endOffset": 739
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 44,
+                    "startColumn": 4,
+                    "startOffset": 3133,
+                    "endColumn": 72,
+                    "endOffset": 3201
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 0,
+                        "startOffset": 1443,
+                        "endColumn": 68,
+                        "endOffset": 1511
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 45,
+                    "startColumn": 4,
+                    "startOffset": 3206,
+                    "endColumn": 77,
+                    "endOffset": 3279
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 0,
+                        "startOffset": 211,
+                        "endColumn": 73,
+                        "endOffset": 284
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 46,
+                    "startColumn": 4,
+                    "startOffset": 3284,
+                    "endColumn": 123,
+                    "endOffset": 3403
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 0,
+                        "startOffset": 2877,
+                        "endColumn": 119,
+                        "endOffset": 2996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 47,
+                    "startColumn": 4,
+                    "startOffset": 3408,
+                    "endColumn": 87,
+                    "endOffset": 3491
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 0,
+                        "startOffset": 1046,
+                        "endColumn": 83,
+                        "endOffset": 1129
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 48,
+                    "startColumn": 4,
+                    "startOffset": 3496,
+                    "endColumn": 125,
+                    "endOffset": 3617
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 0,
+                        "startOffset": 924,
+                        "endColumn": 121,
+                        "endOffset": 1045
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 49,
+                    "startColumn": 4,
+                    "startOffset": 3622,
+                    "endColumn": 73,
+                    "endOffset": 3691
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 0,
+                        "startOffset": 740,
+                        "endColumn": 69,
+                        "endOffset": 809
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 50,
+                    "startColumn": 4,
+                    "startOffset": 3696,
+                    "endColumn": 117,
+                    "endOffset": 3809
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_content_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 0,
+                        "startOffset": 810,
+                        "endColumn": 113,
+                        "endOffset": 923
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 3814,
+                    "endColumn": 100,
+                    "endOffset": 3910
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/res/values-hu/values-hu.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 100,
+                        "endOffset": 151
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 3915,
+                    "endColumn": 55,
+                    "endOffset": 3966
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 0,
+                        "startOffset": 1639,
+                        "endColumn": 51,
+                        "endOffset": 1690
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 3971,
+                    "endColumn": 72,
+                    "endOffset": 4039
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 0,
+                        "startOffset": 2141,
+                        "endColumn": 68,
+                        "endOffset": 2209
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 4044,
+                    "endColumn": 74,
+                    "endOffset": 4114
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 0,
+                        "startOffset": 2210,
+                        "endColumn": 70,
+                        "endOffset": 2280
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 4119,
+                    "endColumn": 55,
+                    "endOffset": 4170
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 0,
+                        "startOffset": 1691,
+                        "endColumn": 51,
+                        "endOffset": 1742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 4175,
+                    "endColumn": 77,
+                    "endOffset": 4248
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 0,
+                        "startOffset": 2281,
+                        "endColumn": 73,
+                        "endOffset": 2354
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 4253,
+                    "endColumn": 69,
+                    "endOffset": 4318
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 0,
+                        "startOffset": 1743,
+                        "endColumn": 65,
+                        "endOffset": 1808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 58,
+                    "startColumn": 4,
+                    "startOffset": 4323,
+                    "endColumn": 66,
+                    "endOffset": 4385
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 0,
+                        "startOffset": 3103,
+                        "endColumn": 62,
+                        "endOffset": 3165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 59,
+                    "startColumn": 4,
+                    "startOffset": 4390,
+                    "endColumn": 69,
+                    "endOffset": 4455
+                },
+                "from": {
+                    "file": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/res/values-hu/android_ui_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 0,
+                        "startOffset": 1573,
+                        "endColumn": 65,
+                        "endOffset": 1638
+                    }
+                }
+            }
+        ]
+    }
+]

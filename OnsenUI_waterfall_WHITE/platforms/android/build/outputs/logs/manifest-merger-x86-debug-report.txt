@@ -1,0 +1,206 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1-3127
+	package
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:102-151
+		INJECTED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml
+		INJECTED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml
+	android:versionName
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:74-101
+		INJECTED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml
+		INJECTED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml
+	android:hardwareAccelerated
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:11-45
+	android:versionCode
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:46-73
+		INJECTED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml
+		INJECTED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:152-210
+supports-screens
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:211-397
+	android:largeScreens
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:255-282
+	android:smallScreens
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:338-365
+	android:normalScreens
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:283-311
+	android:xlargeScreens
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:366-394
+	android:resizeable
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:312-337
+	android:anyDensity
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:229-254
+uses-permission#android.permission.INTERNET
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:397-459
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:414-456
+application
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:459-2473
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/AndroidManifest.xml:24:5-28:19
+	android:label
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:535-567
+	android:supportsRtl
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:593-619
+	android:hardwareAccelerated
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:472-506
+	android:icon
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:507-534
+	android:largeHeap
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:568-592
+activity#liveworkstech.waterfall.marketplacetest.MainActivity
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:620-1136
+	android:screenOrientation
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:805-841
+	android:label
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:708-745
+	android:launchMode
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:746-776
+	android:windowSoftInputMode
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:901-943
+	android:configChanges
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:630-707
+	android:theme
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:842-900
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:777-804
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:944-1125
+	android:label
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:959-996
+action#android.intent.action.MAIN
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:997-1049
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1005-1046
+category#android.intent.category.LAUNCHER
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1049-1109
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1059-1106
+provider#android.support.v4.content.FileProvider
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1136-1423
+	android:authorities
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1146-1193
+		INJECTED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml
+	android:grantUriPermissions
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1219-1253
+	android:exported
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1194-1218
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1254-1308
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1309-1412
+	android:resource
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1371-1409
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1320-1370
+receiver#de.appplant.cordova.plugin.localnotification.TriggerReceiver
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1423-1536
+	android:exported
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1433-1457
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1458-1533
+receiver#de.appplant.cordova.plugin.localnotification.ClearReceiver
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1536-1647
+	android:exported
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1546-1570
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1571-1644
+activity#de.appplant.cordova.plugin.localnotification.ClickActivity
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1647-1841
+	android:launchMode
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1682-1717
+	android:exported
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1657-1681
+	android:theme
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1792-1838
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1718-1791
+receiver#de.appplant.cordova.plugin.notification.TriggerReceiver
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1841-1949
+	android:exported
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1851-1875
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1876-1946
+receiver#de.appplant.cordova.plugin.notification.ClearReceiver
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1949-2055
+	android:exported
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1959-1983
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:1984-2052
+receiver#de.appplant.cordova.plugin.localnotification.RestoreReceiver
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2055-2270
+	android:exported
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2065-2089
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2090-2165
+intent-filter#android.intent.action.BOOT_COMPLETED
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2166-2259
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2181-2243
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2189-2240
+activity#de.appplant.cordova.plugin.notification.ClickActivity
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2270-2459
+	android:launchMode
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2305-2340
+	android:exported
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2280-2304
+	android:theme
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2410-2456
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2341-2409
+uses-sdk
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2473-2542
+MERGED from [org.xwalk:xwalk_core_library:21.51.546.7] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/21.51.546.7/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:support-v4:27.0.1] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-v4/27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.0.1] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-media-compat/27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.0.1] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-fragment/27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.0.1] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-ui/27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.0.1] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-core-utils/27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.0.1] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/com.android.support/support-compat/27.0.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.apache.cordova:CordovaLib:6.3.0:debug] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/org.apache.cordova/CordovaLib/6.3.0/debug/AndroidManifest.xml:25:5-44
+	android:targetSdkVersion
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2510-2539
+	android:minSdkVersion
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2483-2509
+		INJECTED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml
+		INJECTED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2542-2618
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2559-2615
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2618-2692
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2635-2689
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2692-2763
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2709-2760
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2763-2839
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2780-2836
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2839-2905
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2856-2902
+uses-permission#android.permission.RECORD_VIDEO
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2905-2971
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2922-2968
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2971-3046
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:2988-3043
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:3046-3116
+	android:name
+		ADDED from /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/AndroidManifest.xml:2:3063-3113
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/exploded-aar/android.arch.lifecycle/runtime/1.0.0/AndroidManifest.xml:26:13-58

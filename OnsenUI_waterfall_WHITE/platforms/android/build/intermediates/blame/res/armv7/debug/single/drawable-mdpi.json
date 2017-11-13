@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/armv7/debug/drawable-mdpi/ic_action_remove.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/res/drawable-mdpi/ic_action_remove.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/armv7/debug/drawable-mdpi/icon.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/res/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/armv7/debug/drawable-mdpi/ic_action_next_item.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/res/drawable-mdpi/ic_action_next_item.png"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/armv7/debug/drawable-mdpi/ic_action_previous_item.png",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/res/drawable-mdpi/ic_action_previous_item.png"
+    }
+]

@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/armv7/debug/xml/config.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/res/xml/config.xml"
+    },
+    {
+        "merged": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/build/intermediates/res/merged/armv7/debug/xml/provider_paths.xml",
+        "source": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE/platforms/android/res/xml/provider_paths.xml"
+    }
+]

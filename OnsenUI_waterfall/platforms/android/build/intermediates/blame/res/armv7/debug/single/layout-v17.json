@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout-v17/color_picker_dialog_title.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout-v17/color_picker_dialog_title.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout-v17/validation_message_bubble.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout-v17/validation_message_bubble.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout-v17/color_picker_advanced_component.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout-v17/color_picker_advanced_component.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout-v17/multi_field_time_picker_dialog.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout-v17/multi_field_time_picker_dialog.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout-v17/date_time_suggestion.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout-v17/date_time_suggestion.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout-v17/two_field_date_picker.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout-v17/two_field_date_picker.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout-v17/autofill_keyboard_accessory_item.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout-v17/autofill_keyboard_accessory_item.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout-v17/color_picker_dialog_content.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout-v17/color_picker_dialog_content.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/layout-v17/dropdown_item.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/layout-v17/dropdown_item.xml"
+    }
+]

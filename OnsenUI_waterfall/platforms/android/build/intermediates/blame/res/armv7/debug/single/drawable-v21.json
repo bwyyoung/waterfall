@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/drawable-v21/button_borderless_compat.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/drawable-v21/button_borderless_compat.xml"
+    },
+    {
+        "merged": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/res/merged/armv7/debug/drawable-v21/button_compat.xml",
+        "source": "/Users/bwyyoung/IdeaProjects/OnsenUI_Acacia/platforms/android/build/intermediates/exploded-aar/org.xwalk/xwalk_core_library/19.49.514.5/res/drawable-v21/button_compat.xml"
+    }
+]
