@@ -1,0 +1,97 @@
+<ons-page ng-controller="profile" >
+
+    <div class="vertical_menu">
+        <div class="left" ng-click="slidemenu_open()" style="height: 2.5em;width: 100%;">
+            <div class="slidemenu_icon_font" style="
+                    text-align: center;
+                    width: 100%;
+                    line-height: 2.5em;
+                ">&#xe019;</div>
+        </div>
+        <div class="vertical_text_nav">
+
+        </div>
+    </div>
+
+    <div style="display: flex;
+  flex-flow: row;height: 100%" >
+        <div ng-show="is_menu_open()" style=" margin: auto;
+  position: absolute;
+ left: 45%; top: 45%;">
+            <ons-icon icon='fa-spinner' size="5em" spin='true' ></ons-icon>
+        </div>
+
+        <div style="width: 100%; margin-left: auto;
+         margin-right: auto;  position:relative" ng-show="!is_menu_open()" class="special_hide">
+
+
+            <ons-navigator var="nav_profile" animation="none" style="position: absolute">
+                <div class="navigation_margin"></div>
+                <div class="user" ng-style="setProfileImage" style="margin-top: 5%"></div>
+
+                <div style="text-align: center; vertical-align: middle;
+            width: 100%; font-family: 'Helvetica'">Level {{get_user_level()}}</div>
+                <div style="
+                vertical-align: middle;font-size: 1em; font-weight: bolder;
+                text-align: center; width: 100%; height: 40px;line-height: 40px;
+                 font-family: 'Helvetica'; font-weight: bolder">Credit: {{get_credit_formatted_string()}}</div>
+                <div style="
+             width: 100%;font-size: 0.9em; font-weight: bolder;
+             margin: 0.5em auto 0.3em -13%;">
+                    <ons-row>
+                        <ons-row>
+                            <ons-col>
+                               <div style="text-align: right; margin-right: 0.2em; margin-bottom: 0.3em">Name:</div>
+                            </ons-col>
+                            <ons-col>
+                                <div style="text-align: left">{{get_username()}}</div>
+                            </ons-col>
+                        </ons-row>
+                        <ons-row>
+                            <ons-col >
+                                <div style="text-align: right; margin-right: 0.2em; margin-bottom: 0.3em">Email:</div>
+                            </ons-col>
+                            <ons-col>
+                                <div style="text-align: left; word-wrap: break-word; overflow-wrap: break-word ; max-width: 100%">{{get_email()}}</div>
+                            </ons-col>
+                        </ons-row>
+                        <ons-row>
+                            <ons-col >
+                                <div style="text-align: right; margin-right: 0.2em; margin-bottom: 0.3em">Phone No:</div>
+                            </ons-col>
+                            <ons-col>
+                                <div style="text-align: left">{{get_phone_number()}}</div>
+                            </ons-col>
+                        </ons-row>
+                        <ons-row>
+                            <ons-col >
+                                <div style="text-align: right; margin-right: 0.2em; margin-bottom: 0.3em">DOB:</div>
+                            </ons-col>
+                            <ons-col>
+                                <div style="text-align: left">{{get_dob()}}</div>
+                            </ons-col>
+                        </ons-row>
+                    </ons-row>
+                </div>
+                <div   style="width: 89%; margin-left: auto; margin-right: auto;  position:relative" >
+                    <ons-button  class="profile-button" ng-click="nav_profile.pushPage('profile/profile_update_address.html');"
+                                 style="margin-bottom: 0.3em;">Update Address</ons-button>
+                    <br>
+                    <ons-button  class="profile-button" ng-click="nav_profile.pushPage('profile/profile_change_password.html');"
+                                 style="margin-bottom: 0.3em;">Change Password</ons-button>
+                    <br>
+                    <ons-button  class="profile-button" ng-click="show_form_addcredit()"
+                                 style="margin-bottom: 0.3em;">Add Credit</ons-button>
+                    <br>
+                    <ons-button  class="profile-button" ng-click="nav_profile.pushPage('profile/profile_withdraw.html');"
+                                 style="margin-bottom: 0.3em;">Withdraw</ons-button>
+                    <br>
+                </div>
+            </ons-navigator>
+
+
+        </div>
+
+    </div>
+
+</ons-page>

@@ -1,0 +1,51 @@
+<ons-page>
+
+	<div style="width: 100%" class="scrollable" is='y-scroll-container'>
+		<form name='form' class="login-form" style="min-width: 200px; max-width: 800px;
+		font-family: 'default_font_1';
+	margin: 0 auto 0 auto;">
+			<ons-toolbar fixed-style>
+				<div class="left">
+					<ons-toolbar-button ng-click="
+			nav_registration_poppage();">
+						<div style="font-family: nuiconfont !important; font-weight: bolder">&#xe002;</div>
+					</ons-toolbar-button>
+				</div>
+				<div class="center" style="font-weight: bolder">Login</div>
+			</ons-toolbar>
+			<div class="navigation_margin"></div>
+			<div class="navigation_margin" style="width: 100%">
+
+				<br>
+				<img src="css/custom_images/logo.png" class="logo">
+				<br>
+
+				<input type="email" class="text-input--underbar login_email" ng-model="login.user_email"
+					   placeholder="Email" value=""
+					   style="text-align: center;"
+					   ng-init="login.user_email=''"
+					   ng-keyup="check_input_login(login)">
+
+
+				<br>
+				<input type="password" class="text-input--underbar login_password" ng-model="login.user_password"
+					   placeholder="Password" value=""
+					   ng-init="login.user_password=''"
+					   style=" text-align: center;" ng-keyup="check_input_login(login)">
+
+				<ons-button class="forgot-password" ng-click="forgot_password()">Forgot Password?</ons-button>
+				<br>
+				<ons-button ng-disabled="check_input_login(login)" var="button_login" class="login-button"
+							ng-click="click_login(login);">Login
+				</ons-button>
+				<img src="css/custom_images/powered_by_liveworkstech.svg" style="width: 7em; height: 5em">
+			</div>
+
+		</form>
+	</div>
+
+</ons-page>
+
+
+
+

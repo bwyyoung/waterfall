@@ -1,0 +1,140 @@
+<ons-page ng-controller="transaction_history">
+
+	<div class="vertical_menu">
+		<div class="left" ng-click="slidemenu_open()" style="height: 2.5em;width: 100%;">
+			<div class="slidemenu_icon_font" style="
+                    text-align: center;
+                    width: 100%;
+                    line-height: 2.5em;
+                ">&#xe019;</div>
+		</div>
+		<div class="vertical_text_nav">
+
+		</div>
+	</div>
+
+	<div style="display: flex; flex-flow: row; height: 100%">
+		<div ng-show="is_menu_open()" style=" margin: auto;
+  position: absolute;
+ left: 45%; top: 45%;">
+			<ons-icon icon='fa-spinner' size="5em" spin='true'></ons-icon>
+		</div>
+
+		<div style="width: 100%; margin-left: auto;
+         margin-right: auto;  position:relative" ng-show="!is_menu_open()" class="special_hide">
+
+			<ons-navigator var="nav_transaction_history" animation="none" style="position: absolute">
+				<ons-toolbar fixed-style>
+					<div class="center" style="font-weight: bolder">Transaction History</div>
+				</ons-toolbar>
+				<div class="navigation_margin"></div>
+				<div style="background-color: #E6E6E6">
+					<ons-row>
+						<ons-col>
+							<select
+									ng-model='transaction_history.country'
+									name=''
+									type="text"
+									class="text-input--underbar  login_text select_menu_form"
+									ng-change="check_transaction_country()"
+									value="">
+								<option value="" disabled selected>Select Country</option>
+								<option value="sg">Singapore</option>
+								<option value="id">Indonesia</option>
+								<option value="my">Malaysia</option>
+								<option value="ph">Philippines</option>
+							</select>
+						</ons-col>
+					</ons-row>
+					<ons-row>
+						<ons-col>
+
+							<select
+									ng-model='transaction_history.txn_period'
+									name=''
+									type="text"
+									class="text-input--underbar  login_text select_menu_form"
+									ng-change="check_transaction_duration()"
+									value=""
+									style="background-color: orange !important;
+							color: white !important;">
+								<option value="" disabled selected>Select Txn Period</option>
+								<option value="month_1">Last 1 Month</option>
+								<option value="transaction_20">Last 20 Transactions</option>
+							</select>
+						</ons-col>
+					</ons-row>
+				</div>
+				<div style="max-width: 500px; margin: 0 auto 0 auto; font-size: 0.8em">
+					<ons-row height="2em">
+						<ons-col>
+							<div align="center" class="dont-break-out-no-hyphen"
+								 style="line-height: 2em; vertical-align: middle">Date
+							</div>
+						</ons-col>
+						<ons-col>
+							<div align="center" class="dont-break-out-no-hyphen"
+								 style="line-height: 2em; vertical-align: middle">Type
+							</div>
+						</ons-col>
+						<ons-col>
+							<div align="center" class="dont-break-out-no-hyphen"
+								 style="line-height: 2em; vertical-align: middle">Amount
+							</div>
+						</ons-col>
+						<ons-col>
+							<div align="center" class="dont-break-out-no-hyphen"
+								 style="line-height: 2em; vertical-align: middle">Balance
+							</div>
+						</ons-col>
+					</ons-row>
+					<div style="
+					width: 100%;
+					max-width: 500px;
+					position: absolute !important;
+					top: 12em; bottom: 3em;">
+						<ons-page
+								style="background: transparent !important; background-image: none !important; ">
+							<ons-list id="transaction_history_list"
+									  style="border-top: none;  border-bottom: none; background: none;
+									  " class="scrollable" is='y-scroll-container'>
+								<div style="-webkit-transform: translateZ(0);">
+									<ons-list-item ng-repeat="transaction in get_transactions()"
+												   style="padding: 1em 0 1em 0; font-size: 0.7em;  border-bottom: 1px solid grey; line-height: 1em;">
+										<ons-row height="1em">
+											<ons-col>
+												<div align="center">{{get_date(transaction)}}</div>
+											</ons-col>
+											<ons-col>
+												<div align="center">{{get_type(transaction)}}</div>
+											</ons-col>
+											<ons-col>
+												<div align="center">{{get_amount(transaction)}}</div>
+											</ons-col>
+											<ons-col>
+												<div align="center">{{get_balance(transaction)}}</div>
+											</ons-col>
+										</ons-row>
+									</ons-list-item>
+
+								</div>
+							</ons-list>
+
+						</ons-page>
+
+					</div>
+					<footer style="bottom: 0; left: 0; position: absolute;     width: 100%;
+    background-color: #E6E6E6;">
+						<ons-button class="login-button" style="">Download Transaction History</ons-button>
+					</footer>
+				</div>
+
+			</ons-navigator>
+
+		</div>
+	</div>
+
+</ons-page>
+
+
+

@@ -1,0 +1,118 @@
+{
+  "version": "2.0.3",
+  "name": "cordova-custom-config",
+  "cordova_name": "cordova-custom-config",
+  "description": "Cordova/Phonegap plugin to update platform configuration files based on preferences and config-file data defined in config.xml.",
+  "author": "Dave Alden",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dpa99c/cordova-custom-config.git"
+  },
+  "cordova": {
+    "id": "cordova-custom-config",
+    "platforms": [
+      "android",
+      "browser",
+      "ios"
+    ],
+    "plugins": {
+      "cordova-custom-config": {},
+      "cordova-plugin-whitelist": {},
+      "cordova-ios-requires-fullscreen": {},
+      "cordova-plugin-camera": {
+        "CAMERA_USAGE_DESCRIPTION": " ",
+        "PHOTOLIBRARY_USAGE_DESCRIPTION": " "
+      },
+      "cordova-plugin-console": {},
+      "cordova-plugin-crosswalk-webview": {
+        "XWALK_VERSION": "21+",
+        "XWALK_LITEVERSION": "xwalk_core_library_canary:17+",
+        "XWALK_COMMANDLINE": "--disable-pull-to-refresh-effect",
+        "XWALK_MODE": "embedded",
+        "XWALK_MULTIPLEAPK": "true"
+      },
+      "cordova-plugin-datepicker": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-dialogs": {},
+      "cordova-plugin-file": {},
+      "cordova-plugin-inappbrowser": {},
+      "cordova-plugin-local-notifications-pgb": {},
+      "cordova-plugin-media-capture": {},
+      "cordova-plugin-sim": {},
+      "cordova-plugin-splashscreen": {},
+      "cordova-plugin-statusbar": {},
+      "cordova-plugin-wkwebview-engine": {},
+      "cordova-sqlite-storage": {},
+      "ionic-plugin-keyboard": {},
+      "liveworkstech.waterfall.marketplace-test.android_quit": {},
+      "cordova-plugin-compat": {},
+      "cocoon-cordova-labs-wkwebview-engine-localhost": {}
+    }
+  },
+  "issue": "https://github.com/dpa99c/cordova-custom-config/issues",
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova",
+    "cordova-android",
+    "cordova-ios",
+    "phonegap",
+    "config",
+    "configuration",
+    "plist",
+    "manifest"
+  ],
+  "dependencies": {
+    "async": "^2.5.0",
+    "cocoon-cordova-labs-local-webserver": "^2.4.1",
+    "cocoon-cordova-labs-wkwebview-engine-localhost": "^0.5.1",
+    "cocoon-cordova-plugin-wkwebview-engine": "^1.1.1",
+    "colors": "1.1.2",
+    "cordova-android": "^6.4.0",
+    "cordova-browser": "^5.0.0",
+    "cordova-custom-config": "~2.0.3",
+    "cordova-ios": "^4.5.2",
+    "cordova-ios-requires-fullscreen": "~0.0.2",
+    "cordova-plugin-camera": "^2.4.1",
+    "cordova-plugin-compat": "^1.2.0",
+    "cordova-plugin-console": "~1.1.0",
+    "cordova-plugin-crosswalk-webview": "~2.1.0",
+    "cordova-plugin-datepicker": "~0.9.3",
+    "cordova-plugin-device": "~1.1.6",
+    "cordova-plugin-dialogs": "~1.3.3",
+    "cordova-plugin-file": "~4.3.3",
+    "cordova-plugin-inappbrowser": "~1.7.1",
+    "cordova-plugin-local-notifications-pgb": "~0.8.2-rc.1",
+    "cordova-plugin-media-capture": "~1.4.3",
+    "cordova-plugin-sim": "~1.3.3",
+    "cordova-plugin-splashscreen": "~4.0.3",
+    "cordova-plugin-statusbar": "~2.2.0",
+    "cordova-plugin-whitelist": "^1.3.2",
+    "cordova-plugin-wkwebview-engine": "~1.1.3",
+    "cordova-plugins": "^1.0.0",
+    "cordova-sqlite-storage": "~2.0.4",
+    "cordova-uglify": "^0.2.9",
+    "country-city": "^1.0.0",
+    "elementtree": "0.1.6",
+    "fs-extra": "0.26.5",
+    "grunt": "^0.4.1",
+    "grunt-graphviz": "^0.1.1",
+    "ionic-plugin-keyboard": "~2.2.1",
+    "liveworkstech.waterfall.marketplace-test.android_quit": "custom_plugin/android_quit",
+    "lodash": "4.3.0",
+    "plist": "1.2.0",
+    "shelljs": "0.7.0",
+    "tostr": "0.1.0",
+    "uglify-js": "^3.1.1",
+    "uuid": "^3.1.0",
+    "xcode": "0.8.3"
+  },
+  "devDependencies": {
+    "grunt-angular-architecture-graph": "^0.2.6"
+  },
+  "scripts": {
+    "prepublish": "./offline/offline-npm --prepublish ; ",
+    "preinstall": "./offline/offline-npm --preinstall & sleep 2 ; ",
+    "postinstall": "./offline/offline-npm --postinstall ; "
+  }
+}

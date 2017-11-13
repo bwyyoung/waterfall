@@ -1,0 +1,219 @@
+{
+  "ionic-plugin-keyboard": {
+    "source": {
+      "type": "registry",
+      "id": "ionic-plugin-keyboard"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-datepicker": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-datepicker"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-ios-requires-fullscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-ios-requires-fullscreen"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "android.support.v13": {
+    "source": {
+      "type": "git",
+      "url": "https://github.com/nnexai/cordova-plugin-android-support-v13.git",
+      "subdir": "."
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-common-registerusernotificationsettings-mm": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-common-registerusernotificationsettings-mm"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cordova-plugin-local-notifications-pgb": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-local-notifications-pgb"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "liveworkstech.waterfall.marketplace-test.android_quit": {
+    "source": {
+      "type": "local",
+      "path": "custom_plugin/android_quit"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-camera": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-camera@^2.4.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-console": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-console"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-sim": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-sim"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-statusbar": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-statusbar@2.2.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-device": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-device"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-wkwebview-engine": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-wkwebview-engine"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-crosswalk-webview": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-crosswalk-webview@~2.1.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-media-capture": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-media-capture"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-file": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-file"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-sqlite-storage": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-sqlite-storage"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-inappbrowser": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-inappbrowser@1.7.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-dialogs": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-dialogs"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-splashscreen": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-splashscreen@4.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-whitelist": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-whitelist@1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-custom-config": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-custom-config@~2.0.3"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-plugin-compat": {
+    "source": {
+      "type": "registry",
+      "id": "cordova-plugin-compat@1.2.0"
+    },
+    "is_top_level": true,
+    "variables": {}
+  },
+  "cordova-labs-local-webserver": {
+    "source": {
+      "type": "registry",
+      "id": "git+https://github.com/apache/cordova-plugins.git#local-webserver"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cocoon-cordova-labs-local-webserver": {
+    "source": {
+      "type": "registry",
+      "id": "cocoon-cordova-labs-local-webserver@2.4.1"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cocoon-cordova-plugin-wkwebview-engine": {
+    "source": {
+      "type": "registry",
+      "id": "cocoon-cordova-plugin-wkwebview-engine@1.1.1"
+    },
+    "is_top_level": false,
+    "variables": {}
+  },
+  "cocoon-cordova-labs-wkwebview-engine-localhost": {
+    "source": {
+      "type": "registry",
+      "id": "cocoon-cordova-labs-wkwebview-engine-localhost@^0.5.1"
+    },
+    "is_top_level": true,
+    "variables": {}
+  }
+}

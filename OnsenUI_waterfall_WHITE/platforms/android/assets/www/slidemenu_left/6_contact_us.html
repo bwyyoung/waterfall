@@ -1,0 +1,49 @@
+<ons-page ng-controller="contact_us">
+
+	<div class="vertical_menu">
+		<div class="left" ng-click="app.slidingMenu.toggleMenu()" style="height: 2.5em;width: 100%;">
+			<div class="slidemenu_icon_font" style="
+                    text-align: center;
+                    width: 100%;
+                    line-height: 2.5em;">&#xe019;</div>
+		</div>
+		<div class="vertical_text_nav"></div>
+	</div>
+
+	<div style="display: flex;
+  flex-flow: row;height: 100%">
+
+		<div ng-show="is_menu_open()" style=" margin: auto;
+  position: absolute;
+ left: 45%; top: 45%;">
+			<ons-icon icon='fa-spinner' size="5em" spin='true'></ons-icon>
+		</div>
+
+		<div style="width: 100%; margin-left: auto;
+         margin-right: auto;  position:relative" ng-show="!is_menu_open()" class="special_hide">
+			<ons-navigator>
+				<ons-toolbar fixed-style>
+					<div class="center" style="font-weight: bolder">Contact Us / FAQ</div>
+				</ons-toolbar>
+				<div class="navigation_margin"></div>
+
+				<ons-list>
+					<div ng-repeat="group in groups">
+						<ons-list-item ng-click="toggleGroup(group)" class="title"
+									   ng-class="{active_item:isGroupShown(group)}"
+									   style="border-bottom: 1px solid grey; ">
+							<ons-icon icon="minus-square-o" ng-if="isGroupShown(group)"></ons-icon>
+							<ons-icon icon="plus-square-o" ng-if="!isGroupShown(group)"></ons-icon>
+							{{group.name}}
+						</ons-list-item>
+						<ons-list-item class="item-accordion" ng-repeat="item in group.items"
+									   ng-show="isGroupShown(group)">
+							<div bind-html-unsafe='item'></div>
+						</ons-list-item>
+					</div>
+				</ons-list>
+			</ons-navigator>
+
+		</div>
+	</div>
+</ons-page>

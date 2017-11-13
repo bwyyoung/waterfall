@@ -1,0 +1,96 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "cocoon-cordova-labs-wkwebview-engine-localhost",
+        "scope": null,
+        "escapedName": "cocoon-cordova-labs-wkwebview-engine-localhost",
+        "name": "cocoon-cordova-labs-wkwebview-engine-localhost",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE"
+    ]
+  ],
+  "_from": "cocoon-cordova-labs-wkwebview-engine-localhost@latest",
+  "_id": "cocoon-cordova-labs-wkwebview-engine-localhost@0.5.1",
+  "_inCache": true,
+  "_location": "/cocoon-cordova-labs-wkwebview-engine-localhost",
+  "_nodeVersion": "5.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/cocoon-cordova-labs-wkwebview-engine-localhost-0.5.1.tgz_1481807981686_0.3842293058987707"
+  },
+  "_npmUser": {
+    "name": "ludei",
+    "email": "apps@ludei.com"
+  },
+  "_npmVersion": "3.10.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "cocoon-cordova-labs-wkwebview-engine-localhost",
+    "scope": null,
+    "escapedName": "cocoon-cordova-labs-wkwebview-engine-localhost",
+    "name": "cocoon-cordova-labs-wkwebview-engine-localhost",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cocoon-cordova-labs-wkwebview-engine-localhost/-/cocoon-cordova-labs-wkwebview-engine-localhost-0.5.1.tgz",
+  "_shasum": "a7ccd02dfcb3ae089495ff25877874cab76fc775",
+  "_shrinkwrap": null,
+  "_spec": "cocoon-cordova-labs-wkwebview-engine-localhost",
+  "_where": "/Volumes/SD_CACHE/IdeaProjects/OnsenUI_waterfall_WHITE",
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/Collaborne/cordova-plugins/issues"
+  },
+  "cordova": {
+    "id": "cocoon-cordova-labs-local-webserver",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "dependencies": {},
+  "description": "Cordova WKWebView Engine with HTTP Server Plugin (Cocoon Mod)",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "a7ccd02dfcb3ae089495ff25877874cab76fc775",
+    "tarball": "https://registry.npmjs.org/cocoon-cordova-labs-wkwebview-engine-localhost/-/cocoon-cordova-labs-wkwebview-engine-localhost-0.5.1.tgz"
+  },
+  "engines": [
+    {
+      "name": "cordova-ios",
+      "version": ">=4.0.0-dev"
+    }
+  ],
+  "homepage": "https://github.com/Collaborne/cordova-plugins#readme",
+  "keywords": [
+    "cordova",
+    "wkwebview",
+    "webview",
+    "cordova-ios"
+  ],
+  "license": "Apache-2.0",
+  "maintainers": [
+    {
+      "name": "ludei",
+      "email": "apps@ludei.com"
+    }
+  ],
+  "name": "cocoon-cordova-labs-wkwebview-engine-localhost",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ludei/cordova-plugins.git"
+  },
+  "scripts": {},
+  "version": "0.5.1"
+}

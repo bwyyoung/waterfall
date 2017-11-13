@@ -1,0 +1,89 @@
+<ons-page ng-controller="inbox">
+
+    <div class="vertical_menu">
+        <div class="left" ng-click="slidemenu_open()" style="height: 2.5em;width: 100%;">
+            <div class="slidemenu_icon_font" style="
+                    text-align: center;
+                    width: 100%;
+                    line-height: 2.5em;
+                ">&#xe019;</div>
+        </div>
+        <div class="vertical_text_nav">
+            Chat Feedback
+        </div>
+    </div>
+
+    <div style="display: flex;
+  flex-flow: row;height: 100%;">
+        <div ng-show="is_menu_open()" style=" margin: auto;
+  position: absolute;
+ left: 45%; top: 45%;">
+            <ons-icon icon='fa-spinner' size="5em" spin='true' ></ons-icon>
+        </div>
+
+        <div  style="width: 100%; margin-left: auto;
+         margin-right: auto;  position:relative" ng-show="!is_menu_open()" class="special_hide">
+
+        <div style=" width: 89%; height: 3.5em;">
+            <div  style="font-size: 1.5em;
+            margin-left: 5vw; margin-top: 1vh;
+             white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; ">Chat Feedback</div>
+        </div>
+
+        <div style="bottom: 0;
+                        width: 100%;
+                        position: absolute !important;
+                        top: 2.5em;">
+            <ons-page
+                    style="background: transparent !important; background-image: none !important;
+        position: relative;   	overflow: auto; -webkit-overflow-scrolling: none; height: {{get_current_page_height()}}px" >
+
+                <ons-list id="inbox_list"
+                          style="border-top: none;  border-bottom: none; background: none; height: {{get_current_list_height()}}px;">
+                    <div style="-webkit-transform: translateZ(0);">
+                        <ons-list-item ng-repeat="message in get_messages() " style="padding: 0;">
+                            <div ng-show="is_date_show(message)" class="date_divider_display">
+                                {{get_current_date(message)}}
+                            </div>
+                            <div ng-show="!is_date_show(message)" class="chat_box chat_box_colors_a">
+                            <div class="chat_message_wrapper" ng-class="{'chat_message_right': is_client_message(message)}">
+                                <div class="chat_user_avatar">
+                                    <img ng-src='{{get_message_picture(message)}}' class="md-user-image">
+                                    <div style="font-size: 0.8em;margin: -35%;
+text-align: center;">{{get_message_picture_subtitle(message)}}</div>
+                                </div>
+                                    <div
+                            bind-html-unsafe="get_message_text_bubbles(message)">
+                                    </div>
+                            </div>
+                        </div>
+                        </ons-list-item>
+                        <div style="height: 1em"></div>
+                    </div>
+                </ons-list>
+                <footer>
+
+                <div class="chat_submit_box" >
+                    <div class="uk-input-group" id="chat_submit_box">
+                        <div class="gurdeep-chat-box">
+                            <textarea type="text" placeholder="Type a message" id="submit_message" name="submit_message" class="md-input wordwrap" maxlength="255"></textarea>
+                        </div>
+                    <ons-toolbar-button class="uk-input-group-addon"
+                                        style=" position: absolute; bottom: 0px;  "
+                                        ng-click="submit_message()" ng-disabled="check_enable_send_message()">
+                         <i class="fa fa-send" ></i>
+                    </ons-toolbar-button>
+
+                    </div>
+                </div>
+               </footer>
+            </ons-page>
+            <div class="chat_submit_box"  style="height: {{get_chatbox_filler_height()}}px; padding:0;
+            display: block;  position: relative; "> </div>
+
+        </div>
+    </div>
+    </div>
+</ons-page>

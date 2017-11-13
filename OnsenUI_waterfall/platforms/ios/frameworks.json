@@ -1,0 +1,10 @@
+{
+    "libz.dylib": 2,
+    "CFNetwork.framework": 2,
+    "SystemConfiguration.framework": 1,
+    "WebKit.framework": 2,
+    "ImageIO.framework": 2,
+    "CoreLocation.framework": 2,
+    "AVFoundation.framework": 2,
+    "AudioToolbox.framework": 2
+}

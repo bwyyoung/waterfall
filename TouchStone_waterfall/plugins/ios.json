@@ -1,0 +1,27 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.thinkmill.touchstonejs-starter"
+        },
+        "cordova-plugin-splashscreen": {
+            "PACKAGE_NAME": "com.thinkmill.touchstonejs-starter"
+        },
+        "cordova-plugin-statusbar": {
+            "PACKAGE_NAME": "com.thinkmill.touchstonejs-starter"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.thinkmill.touchstonejs-starter"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "com.thinkmill.touchstonejs-starter"
+        }
+    },
+    "dependent_plugins": {}
+}

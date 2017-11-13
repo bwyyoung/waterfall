@@ -1,0 +1,155 @@
+<ons-page>
+	<ons-toolbar fixed-style>
+		<div class="left">
+			<ons-toolbar-button ng-click="
+			nav_registration_poppage();">
+				<div style="font-family: nuiconfont !important; font-weight: bolder">&#xe002;</div>
+			</ons-toolbar-button>
+		</div>
+		<div class="center" style="font-weight: bolder">Confirmation</div>
+	</ons-toolbar>
+	<div class="navigation_margin"></div>
+
+		<div style="width: 100%" class="scrollable">
+
+	<form name='form' is='y-scroll-container' class="login-form" style="min-width: 200px; max-width: 800px;  font-family: 'default_font_1';
+	margin: 0 auto 0 auto;">
+		<div  class="navigation_margin" style="min-height: 800px; height: 100%">
+			<div>
+				<div class='user'  signup-img></div>
+				<div class="form-row">
+					<div style="font-family: 'default_font_1' !important;" ng-show="is_profile_photo_blank();">
+						Profile Photo
+					</div>
+				</div>
+			</div>
+			<div style="width: 100%;  white-space:nowrap;">
+				<label class="signup">&#xe018;</label>
+				<div style="width: auto; overflow: hidden">
+
+					<input
+							type="email" class="
+							signup_email
+							text-input--underbar width-full"
+							style="  opacity: 1 !important; "
+							placeholder="Email" value="" ng-model="signup.email"
+							disabled>
+				</div>
+			</div>
+			<br>
+			<div style="width: 100%;">
+
+				<div style="width: 50%; float:left;  white-space:nowrap">
+					<label class="signup">&#xe012;</label
+					>
+					<div style="width: auto; overflow: hidden">
+
+						<input
+
+
+								type="text" class="text-input--underbar width-full"
+								style="  opacity: 1 !important; text-align: left; margin-left: 0px;"
+								placeholder="First Name" value="" ng-model="signup.firstname"
+								disabled>
+					</div>
+				</div>
+
+				<div style="width: 50%; float:right; white-space:nowrap">
+					<label class="signup signup_name_separator" >l</label
+					>
+					<div style="width: auto; overflow: hidden">
+						<input
+
+								type="text"
+								style="  opacity: 1 !important; text-align: left; border-width-left: 1px;"
+								class="text-input--underbar width-full" placeholder="Last Name" value=""
+								ng-model="signup.lastname"
+								disabled>
+					</div>
+				</div>
+			</div>
+			<br>
+			<br>
+			<br>
+			<div style="width: 100%;">
+				<label class="signup">&#xe017;</label>
+				<div style="width: auto; overflow: hidden">
+					<input
+
+
+							required
+							data-ng-model='signup.password'
+							type="password"
+							name='password'
+
+							style=" opacity: 1 !important; "
+							class="text-input--underbar width-full new_password" placeholder="Password" value=""
+							disabled>
+				</div>
+			</div>
+			<br>
+			<div style="width: 100%;">
+				<label class="signup">&#xe017;</label>
+				<div style="width: auto; overflow: hidden">
+					<input
+
+
+							required
+							ng-model='signup.password_verify'
+							data-password-verify="signup.password"
+							name='confirm_password'
+
+							type="password"
+							style="  opacity: 1 !important; "
+							class="text-input--underbar width-full new_password" placeholder="Confirm Password"
+							value=""
+							disabled></div>
+			</div>
+			<br>
+			<div style="width: 100%;">
+				<label class="signup">&#xe009;</label>
+				<div style="width: auto; overflow: hidden">
+					<!--todo - Validate phone number -->
+					<input
+							type="text"
+							ng-model="signup.phonenumber"
+							type="text" style="  opacity: 1 !important; "
+							class="text-input--underbar width-full" placeholder="Phone Number" value=""
+							disabled>
+				</div>
+			</div>
+			<br><br>
+			<div class="form-row" style="font-family: 'default_font_1' !important; text-align: center">
+				Date of Birth
+			</div>
+			<div style="width: 100%;overflow: visible">
+				<div id='birthday_popup'  style="
+				width: 98%;
+				background: none; white-space: nowrap; text-align: center;  overflow: visible">
+					<input
+							ng-model="signup.birthday_day"
+							id='birthday_day' type="text" class="text-input--underbar" style=";
+						text-align: center; width: 24%;  opacity: 1 !important;" placeholder="Date" value="" disabled>
+					<input
+							ng-model="signup.birthday_month"
+							id='birthday_month' type="text" class="text-input--underbar" style=";
+						text-align: center; width: 50%; opacity: 1 !important;" placeholder="Month" value="" disabled>
+					<input
+							ng-model="signup.birthday_year"
+							id='birthday_year' type="text" class="text-input--underbar" style=";
+						text-align: center; width: 24%; opacity: 1 !important;" placeholder="Year" value="" disabled>
+				</div>
+			</div>
+			<br>
+			<div class="vspc form-row">
+				<ons-button class="login-button" ng-click="click_signup_submit()"
+							style="width: 93%;">Submit
+				</ons-button>
+			</div>
+		</div>
+	</form>
+		</div>
+</ons-page>
+
+
+

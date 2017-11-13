@@ -1,0 +1,63 @@
+<ons-page ng-controller="search" >
+<div style="background: rgba(0, 9, 19, 0.6) !important; width: 100%; height: 100%; position: absolute; z-index: -1000"></div>
+	<div class="vertical_menu">
+		<div class="left" ng-click="slidemenu_open()" style="height: 2.5em;width: 100%;">
+			<div class="slidemenu_icon_font" style="
+                    text-align: center;
+                    width: 100%;
+                    line-height: 2.5em;
+                ">&#xe019;</div>
+		</div>
+		<div class="vertical_text_nav" ></div>
+	</div>
+
+
+	<div style="display: flex;
+  flex-flow: row;">
+	<div   style="width: 100%; margin-left: auto; margin-right: auto;  position:relative" >
+		<div style=" width: 89%; margin-left: auto; margin-right: auto;  position:relative" >
+			<ons-toolbar-button  style="position: absolute;  right: 0%;  top: 0; ">
+				<div class="slidemenu_icon_font">&#xe01a;</div>
+			</ons-toolbar-button>
+		</div>
+
+		<div style="width: 89%; margin-left: auto; margin-right: auto;  position:relative" >
+			<div class="light_title_font" style="font-size: 2em; margin-left: 5vw; margin-top: 1vh;">Search</div>
+		</div>
+
+			<div style="text-align: center">
+				<div class="login-form" style="margin-top: 5%;overflow: visible;">
+					<div class="light_title_font" style="font-size: 1.5em;margin: 0 auto 0 auto;">Rating</div>
+					<div
+							id="rateYo" style="margin: 0 auto 0 auto;"></div>
+					<br>
+					<div class="light_title_font" style="font-size: 1.5em;margin: 0 auto 0 auto;">Loan Amount</div>
+					<input ng-model="search.loan_amount"
+							class="clearable_dollar" type="text" name="password" value="" placeholder="" id="price"
+						   style="margin: 0 auto 0 auto; color: gray; font-size: 1em;height: 1.4em; width: 90%;
+						       border-radius: 8px;text-align: center"
+						   autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+					/>
+					<br>
+					<br>
+					<div class="light_title_font" style="font-size: 1.5em;margin: 0 auto 0 auto;">Terms</div>
+					<input ng-model="search.loan_term_range_value"
+						   ng-change="update_loan_term_display_text();"
+						   id="loan_term_range"
+						   value="100"
+						   max="99"
+							ontouchstart="$('.clearable_dollar').blur();" type="range" class="range" style="width: 100%;    ">
+
+					<span>{{search.loan_term_display_text}}</span>
+					<br>
+					<br>
+					<br>
+					<ons-button  class="login-button" ng-click="click_search();">Search</ons-button>
+					<br><br>
+					<ons-button  class="cancel-button" ng-click="click_cancel();">Cancel</ons-button>
+				</div>
+			</div>
+
+		</div>
+</div>
+</ons-page>
